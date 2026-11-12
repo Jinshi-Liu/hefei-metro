@@ -1,0 +1,407 @@
+<?xml version='1.0' encoding='utf-8'?>
+<graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <graph edgedefault="undirected">
+    <node id="九联圩" />
+    <node id="丙子铺" />
+    <node id="万年埠" />
+    <node id="万达城" />
+    <node id="云谷路" />
+    <node id="金斗公园" />
+    <node id="塘西河公园" />
+    <node id="紫庐" />
+    <node id="滨湖会展中心" />
+    <node id="高王" />
+    <node id="骆岗" />
+    <node id="南站南广场" />
+    <node id="合肥南站" />
+    <node id="望湖城" />
+    <node id="葛大店" />
+    <node id="秋浦河路" />
+    <node id="朱岗" />
+    <node id="合工大南区" />
+    <node id="包公园" />
+    <node id="大东门" />
+    <node id="明光路" />
+    <node id="长淮" />
+    <node id="合肥火车站" />
+    <node id="瑶海公园" />
+    <node id="兴华苑" />
+    <node id="张洼" />
+    <node id="南岗" />
+    <node id="桂庄" />
+    <node id="汽车西站" />
+    <node id="振兴路" />
+    <node id="蜀山西" />
+    <node id="大蜀山" />
+    <node id="天柱路" />
+    <node id="科学大道" />
+    <node id="十里庙" />
+    <node id="西七里塘" />
+    <node id="五里墩" />
+    <node id="三里庵" />
+    <node id="安农大" />
+    <node id="三孝口" />
+    <node id="四牌楼" />
+    <node id="三里街" />
+    <node id="东五里井" />
+    <node id="东七里" />
+    <node id="漕冲" />
+    <node id="东二十埠" />
+    <node id="龙岗" />
+    <node id="王岗" />
+    <node id="三十埠" />
+    <node id="三十埠东" />
+    <node id="祥和" />
+    <node id="桂王" />
+    <node id="对河" />
+    <node id="店埠河" />
+    <node id="排头" />
+    <node id="肥东站" />
+    <node id="和睦湖" />
+    <node id="马桥" />
+    <node id="南沙河" />
+    <node id="撮镇" />
+    <node id="相城路" />
+    <node id="职教城东" />
+    <node id="职教城" />
+    <node id="幼儿师范" />
+    <node id="文浍苑" />
+    <node id="勤劳村" />
+    <node id="新海大道" />
+    <node id="窦桥湾" />
+    <node id="方庙" />
+    <node id="竹丝滩" />
+    <node id="鸭林冲" />
+    <node id="淮南路" />
+    <node id="一里井" />
+    <node id="海棠" />
+    <node id="郑河" />
+    <node id="四泉桥" />
+    <node id="杏花村" />
+    <node id="合肥西站" />
+    <node id="南新庄" />
+    <node id="国防科技大学" />
+    <node id="洪岗" />
+    <node id="市政务中心" />
+    <node id="合肥大剧院" />
+    <node id="图书馆" />
+    <node id="省博物院" />
+    <node id="安医大二附院" />
+    <node id="繁华大道" />
+    <node id="大学城北" />
+    <node id="工大翡翠湖校区" />
+    <node id="安大磬苑校区" />
+    <node id="幸福坝" />
+    <node id="安医一附院南区" />
+    <node id="凉亭" />
+    <node id="李湾" />
+    <node id="四十埠" />
+    <node id="芮祠" />
+    <node id="乐平" />
+    <node id="省儿童医院新区" />
+    <node id="综保区" />
+    <node id="安医一附院北区" />
+    <node id="陶冲湖东" />
+    <node id="十里村" />
+    <node id="新海公园" />
+    <node id="站塘" />
+    <node id="唐桥" />
+    <node id="五里庙" />
+    <node id="尧渡河路" />
+    <node id="工经学院" />
+    <node id="葛大店南" />
+    <node id="望湖城南" />
+    <node id="淝南" />
+    <node id="竹西" />
+    <node id="薛河" />
+    <node id="南屏路" />
+    <node id="姚公庙" />
+    <node id="天鹅湖东" />
+    <node id="天鹅湖" />
+    <node id="柳树塘" />
+    <node id="金桂" />
+    <node id="玉兰大道" />
+    <node id="北雁湖" />
+    <node id="复兴集" />
+    <node id="长安集" />
+    <node id="桃花潭" />
+    <node id="金小郢" />
+    <node id="铜锣寨路" />
+    <node id="魏庄" />
+    <node id="烧脉岗" />
+    <node id="汲桥路" />
+    <node id="六中菱湖校区" />
+    <node id="菱湖公园" />
+    <node id="北五里井" />
+    <node id="白水坝" />
+    <node id="杏花公园" />
+    <node id="稻香楼" />
+    <node id="中国科大东区" />
+    <node id="市第三医院" />
+    <node id="休宁路" />
+    <node id="凌大塘" />
+    <node id="望湖城西" />
+    <node id="盛大" />
+    <node id="包河苑" />
+    <node id="义兴" />
+    <node id="大连路" />
+    <node id="花园大道" />
+    <node id="黄河路" />
+    <node id="扬子江路" />
+    <node id="义城" />
+    <node id="省行政中心东" />
+    <node id="方兴湖" />
+    <node id="渡江纪念馆" />
+    <node id="沈湾" />
+    <node id="华山路" />
+    <node id="清水冲" />
+    <node id="云川公园" />
+    <node id="滨湖竹园" />
+    <node id="贵阳路" />
+    <node id="青龙岗" />
+    <node id="合肥七中" />
+    <node id="量子科学中心" />
+    <node id="科大先研院" />
+    <node id="开福寺" />
+    <node id="梦城" />
+    <node id="松荫桥" />
+    <node id="陆军兵种大学" />
+    <node id="南七里" />
+    <node id="卫岗" />
+    <node id="唐大楼" />
+    <node id="市儿童医院" />
+    <node id="钢红" />
+    <node id="大兴集" />
+    <node id="伏龙" />
+    <node id="龙塘" />
+    <node id="翡翠公园" />
+    <node id="徽园" />
+    <node id="明珠广场" />
+    <node id="天都路" />
+    <node id="南艳湖北" />
+    <node id="一六八中学" />
+    <node id="合肥大学" />
+    <node id="南艳湖南" />
+    <node id="要素大市场" />
+    <node id="滨湖医院" />
+    <node id="嵩山路" />
+    <node id="省文化和非遗馆" />
+    <node id="杏林" />
+    <node id="庐阳经开区" />
+    <node id="荷塘路" />
+    <node id="双凤" />
+    <node id="金梅路" />
+    <node id="梅冲湖" />
+    <node id="北城世纪城" />
+    <node id="双墩" />
+    <node id="省立医院北区" />
+    <node id="北城高铁站" />
+    <edge source="九联圩" target="丙子铺" />
+    <edge source="丙子铺" target="万年埠" />
+    <edge source="万年埠" target="万达城" />
+    <edge source="万达城" target="云谷路" />
+    <edge source="云谷路" target="金斗公园" />
+    <edge source="云谷路" target="华山路" />
+    <edge source="云谷路" target="清水冲" />
+    <edge source="金斗公园" target="塘西河公园" />
+    <edge source="塘西河公园" target="紫庐" />
+    <edge source="紫庐" target="滨湖会展中心" />
+    <edge source="紫庐" target="滨湖医院" />
+    <edge source="紫庐" target="嵩山路" />
+    <edge source="滨湖会展中心" target="高王" />
+    <edge source="高王" target="骆岗" />
+    <edge source="骆岗" target="南站南广场" />
+    <edge source="南站南广场" target="合肥南站" />
+    <edge source="合肥南站" target="望湖城" />
+    <edge source="合肥南站" target="望湖城南" />
+    <edge source="合肥南站" target="淝南" />
+    <edge source="合肥南站" target="望湖城西" />
+    <edge source="合肥南站" target="盛大" />
+    <edge source="望湖城" target="葛大店" />
+    <edge source="葛大店" target="秋浦河路" />
+    <edge source="秋浦河路" target="朱岗" />
+    <edge source="朱岗" target="合工大南区" />
+    <edge source="朱岗" target="卫岗" />
+    <edge source="朱岗" target="尧渡河路" />
+    <edge source="合工大南区" target="包公园" />
+    <edge source="包公园" target="大东门" />
+    <edge source="大东门" target="明光路" />
+    <edge source="大东门" target="四牌楼" />
+    <edge source="大东门" target="三里街" />
+    <edge source="明光路" target="长淮" />
+    <edge source="长淮" target="合肥火车站" />
+    <edge source="合肥火车站" target="瑶海公园" />
+    <edge source="合肥火车站" target="竹丝滩" />
+    <edge source="合肥火车站" target="鸭林冲" />
+    <edge source="瑶海公园" target="兴华苑" />
+    <edge source="兴华苑" target="张洼" />
+    <edge source="南岗" target="桂庄" />
+    <edge source="桂庄" target="汽车西站" />
+    <edge source="汽车西站" target="振兴路" />
+    <edge source="振兴路" target="蜀山西" />
+    <edge source="蜀山西" target="大蜀山" />
+    <edge source="大蜀山" target="天柱路" />
+    <edge source="天柱路" target="科学大道" />
+    <edge source="科学大道" target="十里庙" />
+    <edge source="十里庙" target="西七里塘" />
+    <edge source="西七里塘" target="五里墩" />
+    <edge source="西七里塘" target="南新庄" />
+    <edge source="西七里塘" target="国防科技大学" />
+    <edge source="五里墩" target="三里庵" />
+    <edge source="三里庵" target="安农大" />
+    <edge source="安农大" target="三孝口" />
+    <edge source="三孝口" target="四牌楼" />
+    <edge source="三孝口" target="杏花公园" />
+    <edge source="三孝口" target="稻香楼" />
+    <edge source="三里街" target="东五里井" />
+    <edge source="东五里井" target="东七里" />
+    <edge source="东七里" target="漕冲" />
+    <edge source="东七里" target="站塘" />
+    <edge source="东七里" target="唐桥" />
+    <edge source="漕冲" target="东二十埠" />
+    <edge source="东二十埠" target="龙岗" />
+    <edge source="龙岗" target="王岗" />
+    <edge source="王岗" target="三十埠" />
+    <edge source="三十埠" target="三十埠东" />
+    <edge source="三十埠东" target="祥和" />
+    <edge source="祥和" target="桂王" />
+    <edge source="桂王" target="对河" />
+    <edge source="对河" target="店埠河" />
+    <edge source="店埠河" target="排头" />
+    <edge source="排头" target="肥东站" />
+    <edge source="肥东站" target="和睦湖" />
+    <edge source="和睦湖" target="马桥" />
+    <edge source="马桥" target="南沙河" />
+    <edge source="南沙河" target="撮镇" />
+    <edge source="相城路" target="职教城东" />
+    <edge source="职教城东" target="职教城" />
+    <edge source="职教城" target="幼儿师范" />
+    <edge source="幼儿师范" target="文浍苑" />
+    <edge source="文浍苑" target="勤劳村" />
+    <edge source="勤劳村" target="新海大道" />
+    <edge source="新海大道" target="窦桥湾" />
+    <edge source="窦桥湾" target="方庙" />
+    <edge source="方庙" target="竹丝滩" />
+    <edge source="方庙" target="新海公园" />
+    <edge source="方庙" target="站塘" />
+    <edge source="鸭林冲" target="淮南路" />
+    <edge source="淮南路" target="一里井" />
+    <edge source="一里井" target="海棠" />
+    <edge source="一里井" target="杏林" />
+    <edge source="海棠" target="郑河" />
+    <edge source="海棠" target="北五里井" />
+    <edge source="海棠" target="白水坝" />
+    <edge source="郑河" target="四泉桥" />
+    <edge source="四泉桥" target="杏花村" />
+    <edge source="杏花村" target="合肥西站" />
+    <edge source="合肥西站" target="南新庄" />
+    <edge source="国防科技大学" target="洪岗" />
+    <edge source="洪岗" target="市政务中心" />
+    <edge source="洪岗" target="松荫桥" />
+    <edge source="洪岗" target="陆军兵种大学" />
+    <edge source="市政务中心" target="合肥大剧院" />
+    <edge source="合肥大剧院" target="图书馆" />
+    <edge source="图书馆" target="省博物院" />
+    <edge source="图书馆" target="天鹅湖" />
+    <edge source="图书馆" target="柳树塘" />
+    <edge source="省博物院" target="安医大二附院" />
+    <edge source="安医大二附院" target="繁华大道" />
+    <edge source="繁华大道" target="大学城北" />
+    <edge source="繁华大道" target="翡翠公园" />
+    <edge source="繁华大道" target="徽园" />
+    <edge source="大学城北" target="工大翡翠湖校区" />
+    <edge source="工大翡翠湖校区" target="安大磬苑校区" />
+    <edge source="安大磬苑校区" target="幸福坝" />
+    <edge source="幸福坝" target="安医一附院南区" />
+    <edge source="安医一附院南区" target="凉亭" />
+    <edge source="凉亭" target="李湾" />
+    <edge source="李湾" target="四十埠" />
+    <edge source="四十埠" target="芮祠" />
+    <edge source="芮祠" target="乐平" />
+    <edge source="乐平" target="省儿童医院新区" />
+    <edge source="综保区" target="安医一附院北区" />
+    <edge source="安医一附院北区" target="陶冲湖东" />
+    <edge source="陶冲湖东" target="十里村" />
+    <edge source="十里村" target="新海公园" />
+    <edge source="唐桥" target="五里庙" />
+    <edge source="五里庙" target="尧渡河路" />
+    <edge source="尧渡河路" target="工经学院" />
+    <edge source="尧渡河路" target="唐大楼" />
+    <edge source="工经学院" target="葛大店南" />
+    <edge source="葛大店南" target="望湖城南" />
+    <edge source="淝南" target="竹西" />
+    <edge source="竹西" target="薛河" />
+    <edge source="薛河" target="南屏路" />
+    <edge source="南屏路" target="姚公庙" />
+    <edge source="姚公庙" target="天鹅湖东" />
+    <edge source="天鹅湖东" target="天鹅湖" />
+    <edge source="柳树塘" target="金桂" />
+    <edge source="金桂" target="玉兰大道" />
+    <edge source="玉兰大道" target="北雁湖" />
+    <edge source="北雁湖" target="复兴集" />
+    <edge source="北雁湖" target="科大先研院" />
+    <edge source="北雁湖" target="开福寺" />
+    <edge source="复兴集" target="长安集" />
+    <edge source="长安集" target="桃花潭" />
+    <edge source="桃花潭" target="金小郢" />
+    <edge source="金小郢" target="铜锣寨路" />
+    <edge source="铜锣寨路" target="魏庄" />
+    <edge source="魏庄" target="烧脉岗" />
+    <edge source="汲桥路" target="六中菱湖校区" />
+    <edge source="六中菱湖校区" target="菱湖公园" />
+    <edge source="六中菱湖校区" target="庐阳经开区" />
+    <edge source="六中菱湖校区" target="荷塘路" />
+    <edge source="菱湖公园" target="北五里井" />
+    <edge source="白水坝" target="杏花公园" />
+    <edge source="稻香楼" target="中国科大东区" />
+    <edge source="中国科大东区" target="市第三医院" />
+    <edge source="市第三医院" target="休宁路" />
+    <edge source="市第三医院" target="南七里" />
+    <edge source="市第三医院" target="卫岗" />
+    <edge source="休宁路" target="凌大塘" />
+    <edge source="凌大塘" target="望湖城西" />
+    <edge source="盛大" target="包河苑" />
+    <edge source="包河苑" target="义兴" />
+    <edge source="义兴" target="大连路" />
+    <edge source="大连路" target="花园大道" />
+    <edge source="花园大道" target="黄河路" />
+    <edge source="黄河路" target="扬子江路" />
+    <edge source="扬子江路" target="义城" />
+    <edge source="义城" target="省行政中心东" />
+    <edge source="省行政中心东" target="方兴湖" />
+    <edge source="方兴湖" target="渡江纪念馆" />
+    <edge source="渡江纪念馆" target="沈湾" />
+    <edge source="沈湾" target="华山路" />
+    <edge source="清水冲" target="云川公园" />
+    <edge source="云川公园" target="滨湖竹园" />
+    <edge source="滨湖竹园" target="贵阳路" />
+    <edge source="青龙岗" target="合肥七中" />
+    <edge source="合肥七中" target="量子科学中心" />
+    <edge source="量子科学中心" target="科大先研院" />
+    <edge source="开福寺" target="梦城" />
+    <edge source="梦城" target="松荫桥" />
+    <edge source="陆军兵种大学" target="南七里" />
+    <edge source="唐大楼" target="市儿童医院" />
+    <edge source="市儿童医院" target="钢红" />
+    <edge source="钢红" target="大兴集" />
+    <edge source="大兴集" target="伏龙" />
+    <edge source="伏龙" target="龙塘" />
+    <edge source="徽园" target="明珠广场" />
+    <edge source="明珠广场" target="天都路" />
+    <edge source="天都路" target="南艳湖北" />
+    <edge source="南艳湖北" target="一六八中学" />
+    <edge source="一六八中学" target="合肥大学" />
+    <edge source="合肥大学" target="南艳湖南" />
+    <edge source="南艳湖南" target="要素大市场" />
+    <edge source="要素大市场" target="滨湖医院" />
+    <edge source="嵩山路" target="省文化和非遗馆" />
+    <edge source="杏林" target="庐阳经开区" />
+    <edge source="荷塘路" target="双凤" />
+    <edge source="双凤" target="金梅路" />
+    <edge source="金梅路" target="梅冲湖" />
+    <edge source="梅冲湖" target="北城世纪城" />
+    <edge source="北城世纪城" target="双墩" />
+    <edge source="双墩" target="省立医院北区" />
+    <edge source="省立医院北区" target="北城高铁站" />
+  </graph>
+</graphml>
