@@ -1,0 +1,54 @@
+{
+  "data_version": {
+    "multilayer_graphml": "results/networks/multilayer_network_main.graphml",
+    "consistent_with_saved": true
+  },
+  "network": {
+    "nodes": 215,
+    "running_edges": 207,
+    "candidate_transfer_edges": 21,
+    "total_edges": 228,
+    "physical_stations": 195,
+    "transfer_stations": 19,
+    "components_running_only": 8,
+    "components_with_transfers": 1
+  },
+  "baseline_cost_model": "transfers_x2",
+  "baseline_transfer_penalty_stations": 2,
+  "cost_models": {
+    "stations": 0,
+    "transfers_x1": 1,
+    "transfers_x2": 2
+  },
+  "random_seed": 20261116,
+  "od_pairs": 18915,
+  "od_weighting": "unique unordered physical-station pairs, equal weight",
+  "transfer_station_count": 19,
+  "baseline_summary": {
+    "reachable_od": 18915,
+    "mean_cost": 17.356437,
+    "mean_transfers": 1.264182
+  },
+  "ranking_comparison": {
+    "spearman_centrality_vs_loss": 0.461404,
+    "spearman_centrality_vs_unreachable": "undefined",
+    "spearman_loss_vs_unreachable": "undefined",
+    "unreachable_note": "全部换乘站的不可达比例相同（均为0）：8条线路由19座换乘站相互连通，单站关闭不会切断线网，故不可达比例不构成区分指标",
+    "top5_overlap_count": 2,
+    "top5_overlap_stations": "东七里;合肥南站",
+    "centrality_top5": "洪岗;合肥南站;市第三医院;东七里;尧渡河路",
+    "loss_top5": "紫庐;合肥南站;繁华大道;西七里塘;东七里"
+  },
+  "sensitivity_stability": {
+    "spearman_stations_vs_transfers_x1": 0.940351,
+    "spearman_stations_vs_transfers_x2": 0.917544,
+    "spearman_transfers_x1_vs_transfers_x2": 0.982456
+  },
+  "baseline_efficiency": 0.0877546,
+  "notes": [
+    "代价单位=等效站数：乘车区间=1，换乘次数×惩罚（基准2）。不是真实分钟数。",
+    "换乘中断只删除目标站的换乘边，保留运行边、线路副本节点与正常上下车。",
+    "不可达比例与仍可达行程绕行代价分开报告。",
+    "候选换乘边均为待核验证状态，基准情景把其视为可通行属明确假设。"
+  ]
+}
