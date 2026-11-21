@@ -1,0 +1,39 @@
+{
+  "version": "C2-1.0",
+  "network": {
+    "nodes": 215,
+    "running_edges": 207,
+    "candidate_transfer_edges": 21,
+    "total_edges": 228,
+    "physical_stations": 195,
+    "transfer_stations": 19,
+    "components_running_only": 8,
+    "components_with_transfers": 1
+  },
+  "repeats": 100,
+  "seed": 20261116,
+  "transfer_penalty": 2,
+  "od_pairs": 18915,
+  "baseline_mean_cost": 17.356436690457308,
+  "baseline_efficiency": 0.08775460420738297,
+  "ranking": "fixed original, ties by station name",
+  "random_band": "empirical 2.5% to 97.5% quantiles, not a confidence interval",
+  "hashes": {
+    "data\\processed\\line1_stations.csv": "2988cd5abe6162a321b408f4810804bfd127dacbfd061f3ab93ebf8f2c73ad45",
+    "data\\processed\\line2_stations.csv": "3df07a9f54f2a0f3b5d05407071c5f5a27d61d7e61b920e59184dcd08168c9e5",
+    "data\\processed\\line3_stations.csv": "2f412875ce1f135429b025bbdb5ffd8484fa42c0678f2180c60b6f7d91f9715c",
+    "data\\processed\\line4_stations.csv": "2417ad679da93cac0e55df9d41990f631422e053089b6fd37cc333d54bd36199",
+    "data\\processed\\line5_stations.csv": "bd6faa980b999241f5c08ed0e3ca7fc3d5914446ca0417f174efb7533fccae59",
+    "data\\processed\\line6_stations.csv": "2acab9bc72bdc390d6c4ce5208db4911bf5eefc3bcfd7aef988084af0ee0dceb",
+    "data\\processed\\line7_stations.csv": "1d6a6188d2ef4e034219908d519f2db3bf30728c069b752573951fc54c959468",
+    "data\\processed\\line8_stations.csv": "3e6708f3f9c81f7466ac15a519448b0ba59b605f5f66c36e4cfca6ce795ebb08",
+    "data\\processed\\transfer_edges.csv": "69c33bc12293acb1052d53085c678529dcfc5fa9456fa4ea2d0326ca1783d81e",
+    "reference\\B02_transfer_station_ranking.csv": "5ce0cb35e69f8e3942219542614ba8d67f00b4485be4337174f79263665db951",
+    "reference\\B04_single_transfer_disruption.csv": "ede1da20a88749dabc92169b10d1dcb1ab2e5233628b9177e183e34ed823fe1c",
+    "reference\\B09_run_parameters.json": "592fafc05a95f937a4b3c006bc14a628e31cd92330534ab4cd97f70fad4adf9e",
+    "src\\build_network.py": "8805ce3649dfd28be56c6d6648125a8c54f925bb792d0cfa03cfee9dfaeb48f1",
+    "src\\routing.py": "2d5048436150445bbb44a5886403f3216cf82188974872fbf6988381c2b5d2d4",
+    "src\\run_c_step2.py": "e667f04aeb5d7e83f05a0a6a00b83e10cb1c370bf5ca4f0d3d25801c9f12d01f"
+  },
+  "seconds": 900.9786494
+}
