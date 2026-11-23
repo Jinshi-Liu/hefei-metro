@@ -8,48 +8,48 @@
 - [研究计划书](docs/合肥轨道交通研究计划书.pdf)
 - [A：数据来源与建模](docs/a/README.md)
 - [B：中心性、单站中断及结果说明](docs/b/B项成果说明.md)
-- [汇报材料（A、B草稿）](docs/slides/)
-- [数据口径](docs/数据说明.md) · [整理与验证记录](docs/整理记录.md)
+- [C：多站中断及排名稳健性](docs/c/C项成果说明.md)
+- [汇报材料（A/B/C 草稿）](docs/slides/)
+- [数据口径](docs/数据说明.md) · [整理记录与定稿清单](docs/整理记录.md)
 
 ## 统一目录
 | 目录 | 内容 |
 |---|---|
 | data/processed/ | A交付的线路站序、候选换乘、核验表；当前分析输入 |
 | data/raw/ | 原始资料及来源登记（仍需补充，不是已齐全的原始数据集） |
-| src/ | B分析入口与共用建网、路径评价模块 |
-| src/preparation/ | A历史准备、建网和绘图脚本，勿按编号盲目运行 |
-| results/networks/ | A交付的GraphML网络 |
-| results/tables/ | 网络统计、B排名和实验结果 |
-| results/figures/ | B结果图；a/为A图，deck/为B汇报图 |
-| docs/ | 计划书、数据说明、A/B交接文档、slides/汇报材料 |
-| scripts/ | B汇报图及PPT生成脚本 |
-| tests/ | 网络与路径基础回归测试 |
+| `src/` | 共用建网、路径评价及 B/C 实验入口；`preparation/` 为 A 的历史脚本 |
+| `results/networks/` | A 交付的 GraphML 网络 |
+| `results/tables/` | A/B 结果表；`c/step2/` 为 C 基准，`c/step3/` 为 C 参数检验 |
+| `results/figures/` | A/B/C 结果图和汇报插图 |
+| `docs/` | 计划书、数据说明、A/B/C 文档及 `slides/` 汇报草稿 |
+| `scripts/`、`tests/` | 汇报图生成与回归检查 |
 
 初始空CSV模板已移至 docs/templates/，不参与当前实验。
 
 ## 复现入口
-在仓库根目录：
+正式结果已经在 `results/`，汇报取图不需要重算。需要复现时，从仓库根目录依次运行：
+
 ```bash
 python src/run_b.py
-python -m unittest discover -s tests -v
+python src/run_c_step2.py
+python src/run_c_step3.py
 ```
-第一条会重算B的表格与图片，不修改输入CSV。A网络一致性也会检查。
-可选：`python scripts/make_deck_figures.py`、`python scripts/build_b_deck.py`。
-PPT脚本包含手写解说和数值，数据变化后需人工复核；PDF不会自动同步生成。
+
+默认重算对应的表与图，不修改 A 的输入 CSV。C 默认 100 个随机序列，全量较慢；小样本试跑可给两步传同样的 `--repeats`，并用 `--output`、`--step2`、`--figures-output` 指向临时目录，避免覆盖正式结果。快速核对：`python -m unittest discover -s tests -v`。
 
 ## 当前进度与分工
 | 人员 | 状态 | 后续 |
 |---|---|---|
 | A | 已交付数据与建网 | 补齐运营日期、站名及换乘通道证据 |
 | B | 已交付中心性、单站中断和0/1/2换乘惩罚敏感性 | 配合复核结果解释 |
-| C | 待开展 | 多站随机/针对性中断对照、扩展稳健性；不要重复B已完成内容 |
-| D | 持续参与 | 核读文献、整理案例，统合报告与PPT、排练主讲 |
+| C | 已交付多站对照及五种换乘惩罚的稳健性结果 | 配合复核图表与表述 |
+| D | 待定稿 | 补关键资料证据，统一指标口径，用同一条主线统合报告与 PPT |
 
 每人同步交文字和PPT草稿。各任务开分支，经另一人检查后合并到main。
 
 ## 必须说明的前提
 - 主模型来自A交付的1—8号线数据；S1仅为扩展试验，不进入B主实验。
-- 21条换乘连接仍标为待核验；B明确假定候选连接可通行，**不代表已经核实当前运营状态**。
+- 21 条换乘连接在模型输入中仍标为待核验；B/C 均按候选连接可通行建立基准，**不代表已核实当前运营状态**。
 - 195座物理站、215个线路副本、19座候选换乘站；无序物理OD等权，共18915对。
 - 代价＝乘车区间数＋换乘次数×惩罚，基准惩罚2；单位是等效站数，不是分钟或客流。
 - 换乘中断只去除换乘连接，不删除运行边或禁止上下车。

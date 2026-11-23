@@ -1,0 +1,6 @@
+# 保留 C 交付结果原始字节，供运行记录核对 SHA-256。
+results/tables/c/**/*.csv -text whitespace=cr-at-eol
+results/tables/c/**/C*_run_parameters.json -text whitespace=cr-at-eol
+
+# SVG 是绘图产物，以图形预览而不是路径文本差异审阅。
+results/figures/c/*.svg -text -diff -whitespace
