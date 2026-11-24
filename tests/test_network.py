@@ -1,51 +1,62 @@
-"""整理后的基础回归测试；不写入数据或结果。"""
-import sys
+import hashlib
 import unittest
-from pathlib import Path
 
 import networkx as nx
+import numpy as np
+from scipy.stats import spearmanr
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
-import build_network as bn
-import routing as rt
+from src.build_network import DATA_FILE, GRAPH_FILE, build_weighted_network, station_id
+from src.visualize_network import load_map, map_counts
+from src.visualize_weighted_network import fit_minutes
 
 
 class NetworkTests(unittest.TestCase):
-    @classmethod
-    def setUpClass(cls):
-        cls.graph = bn.build_multilayer_network()
+    def test_graphml_matches_source(self):
+        expected = build_weighted_network()
+        saved = nx.read_graphml(GRAPH_FILE)
+        self.assertFalse(saved.is_directed())
+        self.assertTrue(nx.is_connected(saved))
+        self.assertEqual(dict(expected.nodes(data=True)), dict(saved.nodes(data=True)))
+        edges = lambda graph: {frozenset((u, v)): attrs for u, v, attrs in graph.edges(data=True)}
+        self.assertEqual(edges(expected), edges(saved))
+        self.assertEqual(saved.graph["source_sha256"],
+                         hashlib.sha256(DATA_FILE.read_bytes().replace(b"\r\n", b"\n")).hexdigest())
 
-    def test_saved_network_matches(self):
-        self.assertTrue(bn.compare_with_saved_graphml()['consistent'])
-        self.assertEqual(len(bn.build_physical_network()), 195)
-        self.assertEqual(len(self.graph), 215)
+    def test_scope_and_minute_weights(self):
+        graph = build_weighted_network()
+        self.assertEqual({d["line"] for _, d in graph.nodes(data=True)}, {*"12345678", "S1"})
+        self.assertEqual(len({d["station"] for _, d in graph.nodes(data=True)}), 204)
+        self.assertEqual(len(graph), 225)
+        running = [d for _, _, d in graph.edges(data=True) if d["edge_type"] == "running"]
+        transfers = [d for _, _, d in graph.edges(data=True) if d["edge_type"] == "transfer"]
+        self.assertEqual((len(running), len(transfers)), (216, 22))
+        self.assertEqual(len({d["station"] for d in transfers}), 20)
+        self.assertEqual({d["weight"] for d in transfers}, {5.0})
+        self.assertEqual(graph["紫庐_L7"]["嵩山路_L7"]["weight"], 2.5)
+        self.assertEqual(graph[station_id("合肥西站", "3")][station_id("合肥西站", "S1")]["weight"], 5)
 
-    def test_disruption_keeps_running_edges(self):
-        original, _ = rt.build_cost_graph(self.graph)
-        closed, info = rt.build_cost_graph(self.graph, closed_transfer_stations=['合肥南站'])
-        self.assertEqual(set(original), set(closed))
-        def running(g):
-            return {frozenset((u, v)) for u, v, d in g.edges(data=True) if d['edge_type'] == 'running'}
-        self.assertEqual(running(original), running(closed))
-        self.assertEqual(info['running_edges'], 207)
-        self.assertEqual(info['transfer_edges'], 18)
+    def test_three_transfer_links_at_south_station(self):
+        graph = build_weighted_network()
+        south = {frozenset((graph.nodes[u]["line"], graph.nodes[v]["line"]))
+                 for u, v, d in graph.edges(data=True) if d.get("station") == "合肥南站"}
+        self.assertEqual(south, {frozenset(pair) for pair in ("14", "15", "45")})
 
-    def test_paths_against_networkx(self):
-        for model, penalty in rt.COST_MODELS.items():
-            evaluator = rt.ODEvaluator(self.graph, model=model)
-            for stations in [[], ['紫庐'], bn.transfer_station_names(self.graph)]:
-                graph, _ = rt.build_cost_graph(self.graph, model=model, closed_transfer_stations=stations)
-                evaluator.set_graph(graph)
-                for origin in ['万年埠', '合肥南站', '洪岗']:
-                    distances = nx.multi_source_dijkstra_path_length(graph, evaluator.index[origin], weight='weight')
-                    for destination in evaluator.stations:
-                        result = evaluator.evaluate_pair(origin, destination)
-                        expected = min((distances.get(n, float('inf')) for n in evaluator.index[destination]))
-                        self.assertEqual(result.reachable, expected != float('inf'))
-                        if result.reachable:
-                            self.assertAlmostEqual(result.cost, expected)
-                            self.assertAlmostEqual(result.cost, result.rides + penalty * result.transfers)
+    def test_map_keeps_all_edges_and_weights(self):
+        positions, stations, running = load_map(GRAPH_FILE)
+        self.assertEqual(positions.keys(), stations.keys())
+        self.assertEqual(map_counts(stations, running), (204, 225, 216, 22))
+        self.assertEqual(set(stations["合肥南站"]["transfers"]),
+                         {("1", "4", 5), ("1", "5", 5), ("4", "5", 5)})
+        self.assertIn(("7", "嵩山路", 2.5), stations["紫庐"]["rides"])
+
+    def test_weighted_layout_follows_minute_costs(self):
+        graph = nx.read_graphml(GRAPH_FILE)
+        positions = fit_minutes(graph)
+        self.assertEqual(positions.keys(), graph.nodes.keys())
+        weights, lengths = zip(*[(d["weight"], np.linalg.norm(positions[u] - positions[v]))
+                                 for u, v, d in graph.edges(data=True)])
+        self.assertGreater(spearmanr(weights, lengths).statistic, .8)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     unittest.main()

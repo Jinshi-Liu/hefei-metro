@@ -1,56 +1,41 @@
-# 合肥轨道交通网络分析
+# 合肥地铁｜换乘消融实验
 
-**关键换乘节点识别与出行鲁棒性——考虑绕行与换乘代价。**
+**如果事故导致一座或多座车站暂时不能换乘，但列车仍正常运行，哪些行程会走不通，哪些还能到但要多花时间？**
 
-研究问题：中心性高的换乘站，是否也是换乘中断后出行损失最大的站？
+- [最终汇报 PPT](docs/合肥地铁换乘韧性分析_最终汇报.pptx)：科大宽屏模板，含两项实验图表与讲稿备注。
+- [换乘消融实验](docs/换乘消融实验.md)：某站不能换乘时的失联与绕行。
+- [夜间换乘消融实验](docs/夜间换乘消融实验.md)：按末班时刻逐步消融上车机会，比较各线加开晚班，并检验合肥西站末班等候的得失。
+- [按出行时间布局的加权网络图](results/metro_weighted_layout.png) · [全线网示意图](results/metro_map.png) · [离线互动地图](results/metro_map.html)（下载后用浏览器打开）
+- [分钟线网 GraphML](results/metro.graphml) · [原始边表](data/metro_edges.csv) · [静态结果](results/transfer_ablation/) · [夜间结果](results/night_ablation/)
 
-## 从这里看
-- [研究计划书](docs/合肥轨道交通研究计划书.pdf)
-- [A：数据来源与建模](docs/a/README.md)
-- [B：中心性、单站中断及结果说明](docs/b/B项成果说明.md)
-- [C：多站中断及排名稳健性](docs/c/C项成果说明.md)
-- [汇报材料（A/B/C 草稿）](docs/slides/)
-- [数据口径](docs/数据说明.md) · [整理记录与定稿清单](docs/整理记录.md)
+## 线网与数据
 
-## 统一目录
-| 目录 | 内容 |
-|---|---|
-| data/processed/ | A交付的线路站序、候选换乘、核验表；当前分析输入 |
-| data/raw/ | 原始资料及来源登记（仍需补充，不是已齐全的原始数据集） |
-| `src/` | 共用建网、路径评价及 B/C 实验入口；`preparation/` 为 A 的历史脚本 |
-| `results/networks/` | A 交付的 GraphML 网络 |
-| `results/tables/` | A/B 结果表；`c/step2/` 为 C 基准，`c/step3/` 为 C 参数检验 |
-| `results/figures/` | A/B/C 结果图和汇报插图 |
-| `docs/` | 计划书、数据说明、A/B/C 文档及 `slides/` 汇报草稿 |
-| `scripts/`、`tests/` | 汇报图生成与回归检查 |
+- **范围**：2026-11-23 快照，1–8 号线及 S1；204 座物理站、225 个站点—线路节点、216 条运行边、22 条换乘边，涉及 20 座换乘站。线网为无向拓扑，不含地理轨迹、站外接驳或热门地点。
+- **站序与换乘关系**：核对[高德合肥地铁线网](https://www.amap.com/ssr/subway/hefei-3401)。表中列示的连接在基线假定双向可用，不表示运营通道均已实地核实。
+- **运行边**：来自 [MetroMan 合肥路线规划](https://www.metroman.cn/en/planner/hefei) 的双向同车逐站时刻。每线每方向各取一趟中午规划行程，用同一趟的相邻站时刻相减，再取双向均值。例如 7 号线紫庐—嵩山路，正向 3 分钟、反向 2 分钟，权重为 **2.5 分钟**。四个时刻与两个来源链接逐行保存在边表。这是规划估计，不是实测。
+- **换乘边**：同一物理站不同线路的节点之间连接，基准统一 **5 分钟**；敏感性检验另试 3 和 7 分钟。出行分钟不含初次候车、进出站、拥挤或实时延误。
 
-初始空CSV模板已移至 docs/templates/，不参与当前实验。
+边表以 `(station_a, line_a)` 和 `(station_b, line_b)` 标识两端，`edge_type` 区分运行／换乘，`sequence` 标记运行区间在本线的顺序，`minutes` 为基准边权。保存的 GraphML 使用 `weight`（分钟），节点含站名、线路和站序，换乘边保留核验标签。
 
-## 复现入口
-正式结果已经在 `results/`，汇报取图不需要重算。需要复现时，从仓库根目录依次运行：
+两类可视化都直接读取 GraphML。全线网示意图用 [`data/metro_layout.csv`](data/metro_layout.csv) 中的 [MetroMan 示意坐标](https://www.metroman.cn/en/maps/hefei)排版；这些坐标不参与建网和实验。加权网络图用 NetworkX 的 `kamada_kawai_layout(weight="weight")` 拟合最短出行时间，保留站点—线路节点，用虚线标出换乘边。边越短通常耗时越少，但布局是二维近似，不能用图上距离反推分钟。
+
+## 复现
+
+从仓库根目录运行：
 
 ```bash
-python src/run_b.py
-python src/run_c_step2.py
-python src/run_c_step3.py
+python -m pip install -r requirements.txt
+python -m src.build_network
+python -m src.visualize_network
+python -m src.visualize_weighted_network
+python -m src.transfer_ablation
+python -m src.night_ablation
+python -m unittest discover -s tests -v
 ```
 
-默认重算对应的表与图，不修改 A 的输入 CSV。C 默认 100 个随机序列，全量较慢；小样本试跑可给两步传同样的 `--repeats`，并用 `--output`、`--step2`、`--figures-output` 指向临时目录，避免覆盖正式结果。快速核对：`python -m unittest discover -s tests -v`。
+- [建网代码](src/build_network.py)只读一张边表，校验站序和权重，写出 `results/metro.graphml`。
+- [实验代码](src/transfer_ablation.py)读取保存的图，输出单站表、多站汇总表、参数与复核摘要、两张图。默认随机序列 100 条；试跑可用 `--repeats 5 --output /path/to/output`。若图中文字显示为方框，请安装适用的中文字体（如 Microsoft YaHei 或 Noto Sans CJK SC）。
 
-## 当前进度与分工
-| 人员 | 状态 | 后续 |
-|---|---|---|
-| A | 已交付数据与建网 | 补齐运营日期、站名及换乘通道证据 |
-| B | 已交付中心性、单站中断和0/1/2换乘惩罚敏感性 | 配合复核结果解释 |
-| C | 已交付多站对照及五种换乘惩罚的稳健性结果 | 配合复核图表与表述 |
-| D | 待定稿 | 补关键资料证据，统一指标口径，用同一条主线统合报告与 PPT |
+- [夜间实验代码](src/night_ablation.py)读取分钟图的拓扑、[逐班逐站时刻](data/night_trips.csv)和[逐站末班校对表](data/night_last_departures.csv)，输出最晚上车矩阵、逐分钟可达曲线、延时加班排名和合肥西站等候对照。不用客流。
 
-每人同步交文字和PPT草稿。各任务开分支，经另一人检查后合并到main。
-
-## 必须说明的前提
-- 主模型来自A交付的1—8号线数据；S1仅为扩展试验，不进入B主实验。
-- 21 条换乘连接在模型输入中仍标为待核验；B/C 均按候选连接可通行建立基准，**不代表已核实当前运营状态**。
-- 195座物理站、215个线路副本、19座候选换乘站；无序物理OD等权，共18915对。
-- 代价＝乘车区间数＋换乘次数×惩罚，基准惩罚2；单位是等效站数，不是分钟或客流。
-- 换乘中断只去除换乘连接，不删除运行边或禁止上下车。
-- 不可达与绕行分别报告；单站实验不可达比例均为0也是有效结果，不能为了得到断连而改变研究目标。
+原 1–8 号线、等效站数的 B/C 代码和交付文件可在 Git `b0f0b0b` 查阅，不再作为当前实验输入。[原研究计划书](docs/合肥轨道交通研究计划书.pdf)和[早期末班车预研摘录](docs/last-train/)仅供追溯，不作为两项实验输入。

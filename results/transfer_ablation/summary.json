@@ -1,0 +1,142 @@
+{
+  "weight_unit": "minutes",
+  "baseline_transfer_minutes": 5.0,
+  "random_repeats": 100,
+  "random_seed": 20261116,
+  "od_pairs": 20706,
+  "physical_stations": 204,
+  "station_line_nodes": 225,
+  "lines": [
+    "1",
+    "2",
+    "3",
+    "4",
+    "5",
+    "6",
+    "7",
+    "8",
+    "S1"
+  ],
+  "running_edges": 216,
+  "transfer_edges": 22,
+  "transfer_stations": 20,
+  "settings": [
+    {
+      "transfer_minutes": 5.0,
+      "mean_baseline_minutes": 42.00277697285811,
+      "structural_vs_loss_spearman": 0.34586466165413526,
+      "top_five_overlap": 1,
+      "top_five_single_loss": [
+        "合肥西站",
+        "繁华大道",
+        "紫庐",
+        "合肥南站",
+        "西七里塘"
+      ],
+      "efficiency_auc": {
+        "random": 0.7602825324677671,
+        "betweenness": 0.7276583602926446,
+        "single_loss": 0.7251752451485218
+      }
+    },
+    {
+      "transfer_minutes": 3.0,
+      "mean_baseline_minutes": 39.28556940017386,
+      "structural_vs_loss_spearman": 0.35488721804511275,
+      "top_five_overlap": 1,
+      "top_five_single_loss": [
+        "合肥西站",
+        "紫庐",
+        "合肥南站",
+        "繁华大道",
+        "西七里塘"
+      ],
+      "efficiency_auc": {
+        "random": 0.749077953627366,
+        "betweenness": 0.7143383299028717,
+        "single_loss": 0.7128933695238924
+      }
+    },
+    {
+      "transfer_minutes": 7.0,
+      "mean_baseline_minutes": 44.490751473002994,
+      "structural_vs_loss_spearman": 0.30075187969924805,
+      "top_five_overlap": 1,
+      "top_five_single_loss": [
+        "合肥西站",
+        "繁华大道",
+        "紫庐",
+        "合肥南站",
+        "西七里塘"
+      ],
+      "efficiency_auc": {
+        "random": 0.769103329394172,
+        "betweenness": 0.7381033250935234,
+        "single_loss": 0.7349824891345013
+      }
+    }
+  ],
+  "fixed_orders": {
+    "betweenness": [
+      "洪岗",
+      "市第三医院",
+      "合肥南站",
+      "东七里",
+      "尧渡河路",
+      "西七里塘",
+      "图书馆",
+      "朱岗",
+      "紫庐",
+      "三孝口",
+      "繁华大道",
+      "方庙",
+      "合肥西站",
+      "海棠",
+      "大东门",
+      "北雁湖",
+      "云谷路",
+      "合肥火车站",
+      "六中菱湖校区",
+      "一里井"
+    ],
+    "single_loss": [
+      "合肥西站",
+      "繁华大道",
+      "紫庐",
+      "合肥南站",
+      "西七里塘",
+      "图书馆",
+      "云谷路",
+      "洪岗",
+      "东七里",
+      "方庙",
+      "三孝口",
+      "市第三医院",
+      "一里井",
+      "尧渡河路",
+      "合肥火车站",
+      "六中菱湖校区",
+      "北雁湖",
+      "大东门",
+      "海棠",
+      "朱岗"
+    ]
+  },
+  "fixed_cohort": {
+    "strategy": "betweenness",
+    "before_k": 11,
+    "after_k": 12,
+    "newly_closed": "方庙",
+    "reachable_before": 18426,
+    "reachable_after": 12032,
+    "mean_added_before": 20.615244762835125,
+    "mean_added_after": 8.015541888297872,
+    "shared_od_mean_before": 7.882106050531915,
+    "shared_od_mean_after": 8.015541888297872,
+    "newly_unreachable_od": 6394,
+    "newly_unreachable_prior_mean_added": 44.576008758210826
+  },
+  "graph_file": "metro.graphml",
+  "source_sha256": "b8d7f52d14a22bb48de797bf11c8aced00b9b2737055d50e4bf80f77cd0e9df3",
+  "graph_sha256": "bbb972957ae543e17ac1f854dbf43048beb636f5c4b762c08bd25e1c1e0176f9"
+}

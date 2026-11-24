@@ -1,0 +1,433 @@
+﻿service_date,line,direction_terminal,station,last_departure,day_type,source_url
+2026-11-23,1,九联圩,万年埠,23:57,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wannianbu
+2026-11-23,1,九联圩,万达城,23:56,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wandacheng
+2026-11-23,1,九联圩,丙子铺,23:59,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/bingzipu
+2026-11-23,1,九联圩,云谷路,23:54,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yungu-lu
+2026-11-23,1,九联圩,兴华苑,22:42,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xinghuayuan
+2026-11-23,1,九联圩,包公园,22:56,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/baogongyuan
+2026-11-23,1,九联圩,南站南广场,23:37,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/nanzhan-nanguangchang
+2026-11-23,1,九联圩,合工大南区,22:58,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hegongda-nanqu
+2026-11-23,1,九联圩,合肥南站,23:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hefei-nanzhan-hefeinan-railway-station
+2026-11-23,1,九联圩,合肥火车站,22:47,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hefei-huochezhan-hefei-railway-station
+2026-11-23,1,九联圩,塘西河公园,23:50,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tangxihe-gongyuan
+2026-11-23,1,九联圩,大东门,22:53,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dadongmen
+2026-11-23,1,九联圩,张洼,22:40,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhangwa
+2026-11-23,1,九联圩,明光路,22:51,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/mingguang-lu
+2026-11-23,1,九联圩,望湖城,23:07,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wanghucheng
+2026-11-23,1,九联圩,朱岗,23:00,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhugang
+2026-11-23,1,九联圩,滨湖会展中心,23:45,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/binhu-huizhan-zhongxin
+2026-11-23,1,九联圩,瑶海公园,22:45,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yaohai-gongyuan
+2026-11-23,1,九联圩,秋浦河路,23:03,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/qiupuhe-lu
+2026-11-23,1,九联圩,紫庐,23:47,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zilu
+2026-11-23,1,九联圩,葛大店,23:04,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/gedadian
+2026-11-23,1,九联圩,金斗公园,23:52,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/jindou-gongyuan
+2026-11-23,1,九联圩,长淮,22:50,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/changhuai
+2026-11-23,1,九联圩,骆岗,23:39,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/luogang
+2026-11-23,1,九联圩,高王,23:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/gaowang
+2026-11-23,1,张洼,万年埠,22:24,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wannianbu
+2026-11-23,1,张洼,万达城,22:25,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wandacheng
+2026-11-23,1,张洼,丙子铺,22:22,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/bingzipu
+2026-11-23,1,张洼,九联圩,22:20,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/jiulianwei
+2026-11-23,1,张洼,云谷路,22:28,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yungu-lu
+2026-11-23,1,张洼,兴华苑,24:01,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xinghuayuan
+2026-11-23,1,张洼,包公园,23:48,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/baogongyuan
+2026-11-23,1,张洼,南站南广场,22:44,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/nanzhan-nanguangchang
+2026-11-23,1,张洼,合工大南区,23:46,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hegongda-nanqu
+2026-11-23,1,张洼,合肥南站,23:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hefei-nanzhan-hefeinan-railway-station
+2026-11-23,1,张洼,合肥火车站,23:56,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hefei-huochezhan-hefei-railway-station
+2026-11-23,1,张洼,塘西河公园,22:31,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tangxihe-gongyuan
+2026-11-23,1,张洼,大东门,23:50,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dadongmen
+2026-11-23,1,张洼,明光路,23:52,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/mingguang-lu
+2026-11-23,1,张洼,望湖城,23:36,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wanghucheng
+2026-11-23,1,张洼,朱岗,23:43,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhugang
+2026-11-23,1,张洼,滨湖会展中心,22:36,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/binhu-huizhan-zhongxin
+2026-11-23,1,张洼,瑶海公园,23:58,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yaohai-gongyuan
+2026-11-23,1,张洼,秋浦河路,23:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/qiupuhe-lu
+2026-11-23,1,张洼,紫庐,22:34,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zilu
+2026-11-23,1,张洼,葛大店,23:39,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/gedadian
+2026-11-23,1,张洼,金斗公园,22:30,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/jindou-gongyuan
+2026-11-23,1,张洼,长淮,23:54,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/changhuai
+2026-11-23,1,张洼,骆岗,22:42,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/luogang
+2026-11-23,1,张洼,高王,22:40,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/gaowang
+2026-11-23,2,南岗,三十埠,22:53,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanshibu
+2026-11-23,2,南岗,三十埠东,22:50,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanshibudong
+2026-11-23,2,南岗,三孝口,23:15,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanxiaokou
+2026-11-23,2,南岗,三里庵,23:19,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanli-an
+2026-11-23,2,南岗,三里街,23:08,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanlijie
+2026-11-23,2,南岗,东七里,23:04,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dongqili
+2026-11-23,2,南岗,东二十埠,22:59,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dong-ershibu
+2026-11-23,2,南岗,东五里井,23:06,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dongwulijing
+2026-11-23,2,南岗,五里墩,23:22,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wulidun
+2026-11-23,2,南岗,十里庙,23:26,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shilimiao
+2026-11-23,2,南岗,南沙河,22:31,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/nanshahe
+2026-11-23,2,南岗,和睦湖,22:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hemuhu
+2026-11-23,2,南岗,四牌楼,23:13,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sipailou
+2026-11-23,2,南岗,大东门,23:11,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dadongmen
+2026-11-23,2,南岗,大蜀山,23:32,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dashushan
+2026-11-23,2,南岗,天柱路,23:30,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tianzhu-lu
+2026-11-23,2,南岗,安农大,23:17,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/annongda
+2026-11-23,2,南岗,对河,22:44,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/duihe
+2026-11-23,2,南岗,店埠河,22:42,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dianbuhe
+2026-11-23,2,南岗,振兴路,23:37,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhenxing-lu
+2026-11-23,2,南岗,排头,22:40,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/paitou
+2026-11-23,2,南岗,撮镇,22:30,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/cuozhen
+2026-11-23,2,南岗,桂庄,23:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/guizhuang
+2026-11-23,2,南岗,桂王,22:46,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/guiwang
+2026-11-23,2,南岗,汽车西站,23:40,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/qiche-xizhan
+2026-11-23,2,南岗,漕冲,23:01,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/caochong
+2026-11-23,2,南岗,王岗,22:55,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wanggang
+2026-11-23,2,南岗,祥和,22:48,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xianghe
+2026-11-23,2,南岗,科学大道,23:28,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/kexue-dadao
+2026-11-23,2,南岗,肥东站,22:37,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/feidong-zhan-feidong-railway-station
+2026-11-23,2,南岗,蜀山西,23:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shushanxi
+2026-11-23,2,南岗,西七里塘,23:24,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xiqilitang
+2026-11-23,2,南岗,马桥,22:34,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/maqiao
+2026-11-23,2,南岗,龙岗,22:57,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/longgang
+2026-11-23,2,撮镇,三十埠,23:19,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanshibu
+2026-11-23,2,撮镇,三十埠东,23:22,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanshibudong
+2026-11-23,2,撮镇,三孝口,22:57,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanxiaokou
+2026-11-23,2,撮镇,三里庵,22:53,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanli-an
+2026-11-23,2,撮镇,三里街,23:04,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanlijie
+2026-11-23,2,撮镇,东七里,23:09,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dongqili
+2026-11-23,2,撮镇,东二十埠,23:13,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dong-ershibu
+2026-11-23,2,撮镇,东五里井,23:06,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dongwulijing
+2026-11-23,2,撮镇,五里墩,22:51,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wulidun
+2026-11-23,2,撮镇,十里庙,22:47,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shilimiao
+2026-11-23,2,撮镇,南岗,22:30,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/nangang
+2026-11-23,2,撮镇,南沙河,23:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/nanshahe
+2026-11-23,2,撮镇,和睦湖,23:37,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hemuhu
+2026-11-23,2,撮镇,四牌楼,23:00,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sipailou
+2026-11-23,2,撮镇,大东门,23:02,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dadongmen
+2026-11-23,2,撮镇,大蜀山,22:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dashushan
+2026-11-23,2,撮镇,天柱路,22:43,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tianzhu-lu
+2026-11-23,2,撮镇,安农大,22:55,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/annongda
+2026-11-23,2,撮镇,对河,23:28,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/duihe
+2026-11-23,2,撮镇,店埠河,23:31,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dianbuhe
+2026-11-23,2,撮镇,振兴路,22:36,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhenxing-lu
+2026-11-23,2,撮镇,排头,23:33,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/paitou
+2026-11-23,2,撮镇,桂庄,22:31,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/guizhuang
+2026-11-23,2,撮镇,桂王,23:26,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/guiwang
+2026-11-23,2,撮镇,汽车西站,22:33,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/qiche-xizhan
+2026-11-23,2,撮镇,漕冲,23:11,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/caochong
+2026-11-23,2,撮镇,王岗,23:18,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wanggang
+2026-11-23,2,撮镇,祥和,23:24,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xianghe
+2026-11-23,2,撮镇,科学大道,22:45,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/kexue-dadao
+2026-11-23,2,撮镇,肥东站,23:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/feidong-zhan-feidong-railway-station
+2026-11-23,2,撮镇,蜀山西,22:38,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shushanxi
+2026-11-23,2,撮镇,西七里塘,22:49,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xiqilitang
+2026-11-23,2,撮镇,马桥,23:39,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/maqiao
+2026-11-23,2,撮镇,龙岗,23:15,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/longgang
+2026-11-23,3,相城路,一里井,23:24,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yilijing
+2026-11-23,3,相城路,乐平,22:26,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/leping
+2026-11-23,3,相城路,凉亭,22:35,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/liangting
+2026-11-23,3,相城路,勤劳村,23:41,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/qinlaocun
+2026-11-23,3,相城路,南新庄,23:10,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/nanxinzhuang
+2026-11-23,3,相城路,合肥大剧院,22:59,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-dajuyuan
+2026-11-23,3,相城路,合肥火车站,23:30,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-huochezhan-hefei-railway-station
+2026-11-23,3,相城路,合肥西站,23:13,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-xizhan-hefeixi-railway-station
+2026-11-23,3,相城路,四十埠,22:31,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/sishibu
+2026-11-23,3,相城路,四泉桥,23:18,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/siquanqiao
+2026-11-23,3,相城路,国防科技大学,23:06,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/guofang-keji-daxue
+2026-11-23,3,相城路,图书馆,22:57,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/tushuguan
+2026-11-23,3,相城路,大学城北,22:48,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/daxuechengbei
+2026-11-23,3,相城路,安医一附院南区,22:39,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/anyi-1-fuyuan-nanqu
+2026-11-23,3,相城路,安医大二附院,22:52,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/anyida-2-fuyuan
+2026-11-23,3,相城路,安大磬苑校区,22:44,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/anda-qingyuan-xiaoqu
+2026-11-23,3,相城路,工大翡翠湖校区,22:46,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/gongda-feicuihu-xiaoqu
+2026-11-23,3,相城路,市政务中心,23:02,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shi-zhengwu-zhongxin
+2026-11-23,3,相城路,幸福坝,22:41,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xingfuba
+2026-11-23,3,相城路,幼儿师范,23:46,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/you-er-shifan
+2026-11-23,3,相城路,文浍苑,23:44,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/wenhuiyuan
+2026-11-23,3,相城路,新海大道,23:40,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xinhai-dadao
+2026-11-23,3,相城路,方庙,23:35,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/fangmiao
+2026-11-23,3,相城路,李湾,22:34,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/liwan
+2026-11-23,3,相城路,杏花村,23:15,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xinghuacun
+2026-11-23,3,相城路,洪岗,23:04,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/honggang
+2026-11-23,3,相城路,海棠,23:22,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/haitang
+2026-11-23,3,相城路,淮南路,23:26,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/huainan-lu
+2026-11-23,3,相城路,省儿童医院新区,22:25,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/sheng-ertong-yiyuan-xinqu
+2026-11-23,3,相城路,省博物院,22:55,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/sheng-bowuyuan
+2026-11-23,3,相城路,窦桥湾,23:37,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/douqiaowan
+2026-11-23,3,相城路,竹丝滩,23:33,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhusitan
+2026-11-23,3,相城路,繁华大道,22:50,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/fanhua-dadao
+2026-11-23,3,相城路,职教城,23:49,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhijiaocheng
+2026-11-23,3,相城路,职教城东,23:51,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhijiaochengdong
+2026-11-23,3,相城路,芮祠,22:29,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/ruici
+2026-11-23,3,相城路,西七里塘,23:08,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xiqilitang
+2026-11-23,3,相城路,郑河,23:20,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhenghe
+2026-11-23,3,相城路,鸭林冲,23:28,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yalinchong
+2026-11-23,3,省儿童医院新区,一里井,22:54,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yilijing
+2026-11-23,3,省儿童医院新区,乐平,23:51,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/leping
+2026-11-23,3,省儿童医院新区,凉亭,23:42,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/liangting
+2026-11-23,3,省儿童医院新区,勤劳村,22:36,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/qinlaocun
+2026-11-23,3,省儿童医院新区,南新庄,23:08,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/nanxinzhuang
+2026-11-23,3,省儿童医院新区,合肥大剧院,23:19,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-dajuyuan
+2026-11-23,3,省儿童医院新区,合肥火车站,22:48,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-huochezhan-hefei-railway-station
+2026-11-23,3,省儿童医院新区,合肥西站,23:05,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-xizhan-hefeixi-railway-station
+2026-11-23,3,省儿童医院新区,四十埠,23:47,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/sishibu
+2026-11-23,3,省儿童医院新区,四泉桥,23:00,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/siquanqiao
+2026-11-23,3,省儿童医院新区,国防科技大学,23:12,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/guofang-keji-daxue
+2026-11-23,3,省儿童医院新区,图书馆,23:21,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/tushuguan
+2026-11-23,3,省儿童医院新区,大学城北,23:29,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/daxuechengbei
+2026-11-23,3,省儿童医院新区,安医一附院南区,23:39,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/anyi-1-fuyuan-nanqu
+2026-11-23,3,省儿童医院新区,安医大二附院,23:26,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/anyida-2-fuyuan
+2026-11-23,3,省儿童医院新区,安大磬苑校区,23:34,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/anda-qingyuan-xiaoqu
+2026-11-23,3,省儿童医院新区,工大翡翠湖校区,23:32,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/gongda-feicuihu-xiaoqu
+2026-11-23,3,省儿童医院新区,市政务中心,23:16,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shi-zhengwu-zhongxin
+2026-11-23,3,省儿童医院新区,幸福坝,23:37,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xingfuba
+2026-11-23,3,省儿童医院新区,幼儿师范,22:32,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/you-er-shifan
+2026-11-23,3,省儿童医院新区,文浍苑,22:34,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/wenhuiyuan
+2026-11-23,3,省儿童医院新区,新海大道,22:38,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xinhai-dadao
+2026-11-23,3,省儿童医院新区,方庙,22:43,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/fangmiao
+2026-11-23,3,省儿童医院新区,李湾,23:44,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/liwan
+2026-11-23,3,省儿童医院新区,杏花村,23:03,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xinghuacun
+2026-11-23,3,省儿童医院新区,洪岗,23:14,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/honggang
+2026-11-23,3,省儿童医院新区,海棠,22:56,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/haitang
+2026-11-23,3,省儿童医院新区,淮南路,22:52,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/huainan-lu
+2026-11-23,3,省儿童医院新区,相城路,22:25,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xiangcheng-lu
+2026-11-23,3,省儿童医院新区,省博物院,23:23,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/sheng-bowuyuan
+2026-11-23,3,省儿童医院新区,窦桥湾,22:41,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/douqiaowan
+2026-11-23,3,省儿童医院新区,竹丝滩,22:45,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhusitan
+2026-11-23,3,省儿童医院新区,繁华大道,23:28,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/fanhua-dadao
+2026-11-23,3,省儿童医院新区,职教城,22:29,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhijiaocheng
+2026-11-23,3,省儿童医院新区,职教城东,22:27,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhijiaochengdong
+2026-11-23,3,省儿童医院新区,芮祠,23:49,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/ruici
+2026-11-23,3,省儿童医院新区,西七里塘,23:10,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xiqilitang
+2026-11-23,3,省儿童医院新区,郑河,22:58,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhenghe
+2026-11-23,3,省儿童医院新区,鸭林冲,22:50,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yalinchong
+2026-11-23,4,烧脉岗,东七里,22:18,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dongqili
+2026-11-23,4,烧脉岗,五里庙,22:23,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wulimiao
+2026-11-23,4,烧脉岗,北雁湖,24:01,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/beiyanhu
+2026-11-23,4,烧脉岗,十里村,22:08,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shilicun
+2026-11-23,4,烧脉岗,南屏路,23:43,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/nanping-lu
+2026-11-23,4,烧脉岗,合肥南站,23:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hefei-nanzhan-hefeinan-railway-station
+2026-11-23,4,烧脉岗,唐桥,22:20,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tangqiao
+2026-11-23,4,烧脉岗,图书馆,23:52,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tushuguan
+2026-11-23,4,烧脉岗,复兴集,24:04,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/fuxingji
+2026-11-23,4,烧脉岗,天鹅湖,23:49,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tian-ehu
+2026-11-23,4,烧脉岗,天鹅湖东,23:47,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tian-ehudong
+2026-11-23,4,烧脉岗,姚公庙,23:45,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yaogongmiao
+2026-11-23,4,烧脉岗,安医一附院北区,22:02,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/anyi-1-fuyuan-beiqu
+2026-11-23,4,烧脉岗,尧渡河路,22:26,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yaoduhe-lu
+2026-11-23,4,烧脉岗,工经学院,22:28,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/gongjing-xueyuan
+2026-11-23,4,烧脉岗,新海公园,22:11,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xinhai-gongyuan
+2026-11-23,4,烧脉岗,方庙,22:14,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/fangmiao
+2026-11-23,4,烧脉岗,望湖城南,22:33,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wanghuchengnan
+2026-11-23,4,烧脉岗,柳树塘,23:54,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/liushutang
+2026-11-23,4,烧脉岗,桃花潭,24:10,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/taohuatan
+2026-11-23,4,烧脉岗,淝南,23:37,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/feinan
+2026-11-23,4,烧脉岗,玉兰大道,23:58,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yulan-dadao
+2026-11-23,4,烧脉岗,站塘,22:16,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhantang
+2026-11-23,4,烧脉岗,竹西,23:39,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhuxi
+2026-11-23,4,烧脉岗,综保区,22:00,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zongbaoqu
+2026-11-23,4,烧脉岗,葛大店南,22:31,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/gedadianan
+2026-11-23,4,烧脉岗,薛河,23:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xuehe
+2026-11-23,4,烧脉岗,金小郢,24:13,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/jinxiaoying
+2026-11-23,4,烧脉岗,金桂,23:56,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/jingui
+2026-11-23,4,烧脉岗,铜锣寨路,24:17,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tongluozhai-lu
+2026-11-23,4,烧脉岗,长安集,24:06,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/chang-anji
+2026-11-23,4,烧脉岗,陶冲湖东,22:04,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/taochonghudong
+2026-11-23,4,烧脉岗,魏庄,24:19,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/weizhuang
+2026-11-23,4,综保区,东七里,23:54,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dongqili
+2026-11-23,4,综保区,五里庙,23:47,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wulimiao
+2026-11-23,4,综保区,北雁湖,22:20,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/beiyanhu
+2026-11-23,4,综保区,十里村,24:03,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shilicun
+2026-11-23,4,综保区,南屏路,22:39,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/nanping-lu
+2026-11-23,4,综保区,合肥南站,23:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hefei-nanzhan-hefeinan-railway-station
+2026-11-23,4,综保区,唐桥,23:51,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tangqiao
+2026-11-23,4,综保区,图书馆,22:30,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tushuguan
+2026-11-23,4,综保区,复兴集,22:17,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/fuxingji
+2026-11-23,4,综保区,天鹅湖,22:33,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tian-ehu
+2026-11-23,4,综保区,天鹅湖东,22:34,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tian-ehudong
+2026-11-23,4,综保区,姚公庙,22:36,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yaogongmiao
+2026-11-23,4,综保区,安医一附院北区,24:09,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/anyi-1-fuyuan-beiqu
+2026-11-23,4,综保区,尧渡河路,23:45,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yaoduhe-lu
+2026-11-23,4,综保区,工经学院,23:43,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/gongjing-xueyuan
+2026-11-23,4,综保区,新海公园,24:00,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xinhai-gongyuan
+2026-11-23,4,综保区,方庙,23:58,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/fangmiao
+2026-11-23,4,综保区,望湖城南,23:38,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wanghuchengnan
+2026-11-23,4,综保区,柳树塘,22:28,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/liushutang
+2026-11-23,4,综保区,桃花潭,22:11,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/taohuatan
+2026-11-23,4,综保区,淝南,22:45,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/feinan
+2026-11-23,4,综保区,烧脉岗,22:00,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shaomaigang
+2026-11-23,4,综保区,玉兰大道,22:23,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yulan-dadao
+2026-11-23,4,综保区,站塘,23:56,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhantang
+2026-11-23,4,综保区,竹西,22:43,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhuxi
+2026-11-23,4,综保区,葛大店南,23:40,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/gedadianan
+2026-11-23,4,综保区,薛河,22:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xuehe
+2026-11-23,4,综保区,金小郢,22:08,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/jinxiaoying
+2026-11-23,4,综保区,金桂,22:25,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/jingui
+2026-11-23,4,综保区,铜锣寨路,22:03,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/tongluozhai-lu
+2026-11-23,4,综保区,长安集,22:15,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/chang-anji
+2026-11-23,4,综保区,陶冲湖东,24:07,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/taochonghudong
+2026-11-23,4,综保区,魏庄,22:02,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/weizhuang
+2026-11-23,5,汲桥路,三孝口,23:50,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanxiaokou
+2026-11-23,5,汲桥路,中国科大东区,23:46,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhongguo-keda-dongqu
+2026-11-23,5,汲桥路,义兴,22:33,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yixing
+2026-11-23,5,汲桥路,义城,22:21,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yicheng
+2026-11-23,5,汲桥路,云川公园,22:04,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yunchuan-gongyuan
+2026-11-23,5,汲桥路,云谷路,22:08,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yungu-lu
+2026-11-23,5,汲桥路,休宁路,23:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xiuning-lu
+2026-11-23,5,汲桥路,六中菱湖校区,24:04,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/liuzhong-linghu-xiaoqu
+2026-11-23,5,汲桥路,凌大塘,23:39,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/lingdatang
+2026-11-23,5,汲桥路,包河苑,22:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/baoheyuan
+2026-11-23,5,汲桥路,北五里井,23:59,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/beiwulijing
+2026-11-23,5,汲桥路,华山路,22:10,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/huashan-lu
+2026-11-23,5,汲桥路,合肥南站,23:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hefei-nanzhan-hefeinan-railway-station
+2026-11-23,5,汲桥路,大连路,22:30,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dalian-lu
+2026-11-23,5,汲桥路,市第三医院,23:43,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shi-di-3-yiyuan
+2026-11-23,5,汲桥路,扬子江路,22:24,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yangzijiang-lu
+2026-11-23,5,汲桥路,方兴湖,22:16,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/fangxinghu
+2026-11-23,5,汲桥路,望湖城西,23:37,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wanghuchengxi
+2026-11-23,5,汲桥路,杏花公园,23:52,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xinghua-gongyuan
+2026-11-23,5,汲桥路,沈湾,22:12,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shenwan
+2026-11-23,5,汲桥路,海棠,23:56,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/haitang
+2026-11-23,5,汲桥路,清水冲,22:06,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/qingshuichong
+2026-11-23,5,汲桥路,渡江纪念馆,22:14,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dujiang-jinianguan
+2026-11-23,5,汲桥路,滨湖竹园,22:02,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/binhu-zhuyuan
+2026-11-23,5,汲桥路,白水坝,23:54,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/baishuiba
+2026-11-23,5,汲桥路,盛大,22:37,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shengda
+2026-11-23,5,汲桥路,省行政中心东,22:19,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sheng-xingzheng-zhongxindong
+2026-11-23,5,汲桥路,稻香楼,23:48,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/daoxianglou
+2026-11-23,5,汲桥路,花园大道,22:28,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/huayuan-dadao
+2026-11-23,5,汲桥路,菱湖公园,24:01,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/linghu-gongyuan
+2026-11-23,5,汲桥路,贵阳路,22:00,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/guiyang-lu
+2026-11-23,5,汲桥路,黄河路,22:26,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/huanghe-lu
+2026-11-23,5,贵阳路,三孝口,22:31,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sanxiaokou
+2026-11-23,5,贵阳路,中国科大东区,22:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/zhongguo-keda-dongqu
+2026-11-23,5,贵阳路,义兴,23:41,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yixing
+2026-11-23,5,贵阳路,义城,23:53,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yicheng
+2026-11-23,5,贵阳路,云川公园,24:10,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yunchuan-gongyuan
+2026-11-23,5,贵阳路,云谷路,24:06,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yungu-lu
+2026-11-23,5,贵阳路,休宁路,22:40,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xiuning-lu
+2026-11-23,5,贵阳路,六中菱湖校区,22:17,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/liuzhong-linghu-xiaoqu
+2026-11-23,5,贵阳路,凌大塘,22:42,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/lingdatang
+2026-11-23,5,贵阳路,包河苑,23:40,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/baoheyuan
+2026-11-23,5,贵阳路,北五里井,22:23,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/beiwulijing
+2026-11-23,5,贵阳路,华山路,24:04,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/huashan-lu
+2026-11-23,5,贵阳路,合肥南站,23:35,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/hefei-nanzhan-hefeinan-railway-station
+2026-11-23,5,贵阳路,大连路,23:44,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dalian-lu
+2026-11-23,5,贵阳路,市第三医院,22:38,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shi-di-3-yiyuan
+2026-11-23,5,贵阳路,扬子江路,23:51,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/yangzijiang-lu
+2026-11-23,5,贵阳路,方兴湖,23:58,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/fangxinghu
+2026-11-23,5,贵阳路,望湖城西,22:45,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/wanghuchengxi
+2026-11-23,5,贵阳路,杏花公园,22:29,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/xinghua-gongyuan
+2026-11-23,5,贵阳路,汲桥路,22:15,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/jiqiao-lu
+2026-11-23,5,贵阳路,沈湾,24:02,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shenwan
+2026-11-23,5,贵阳路,海棠,22:25,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/haitang
+2026-11-23,5,贵阳路,清水冲,24:08,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/qingshuichong
+2026-11-23,5,贵阳路,渡江纪念馆,24:00,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/dujiang-jinianguan
+2026-11-23,5,贵阳路,滨湖竹园,24:12,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/binhu-zhuyuan
+2026-11-23,5,贵阳路,白水坝,22:27,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/baishuiba
+2026-11-23,5,贵阳路,盛大,23:37,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/shengda
+2026-11-23,5,贵阳路,省行政中心东,23:55,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/sheng-xingzheng-zhongxindong
+2026-11-23,5,贵阳路,稻香楼,22:34,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/daoxianglou
+2026-11-23,5,贵阳路,花园大道,23:46,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/huayuan-dadao
+2026-11-23,5,贵阳路,菱湖公园,22:20,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/linghu-gongyuan
+2026-11-23,5,贵阳路,黄河路,23:48,Weekdays(Mon. to Thu.),https://www.metroman.cn/en/cities/hefei/stations/huanghe-lu
+2026-11-23,6,青龙岗,伏龙,22:17,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/fulong
+2026-11-23,6,青龙岗,北雁湖,22:57,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/beiyanhu
+2026-11-23,6,青龙岗,南七里,22:41,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/nanqili
+2026-11-23,6,青龙岗,卫岗,22:36,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/weigang
+2026-11-23,6,青龙岗,合肥七中,23:05,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-qizhong
+2026-11-23,6,青龙岗,唐大楼,22:28,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/tangdalou
+2026-11-23,6,青龙岗,大兴集,22:19,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/daxingji
+2026-11-23,6,青龙岗,尧渡河路,22:31,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yaoduhe-lu
+2026-11-23,6,青龙岗,市儿童医院,22:25,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shi-ertong-yiyuan
+2026-11-23,6,青龙岗,市第三医院,22:39,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shi-di-3-yiyuan
+2026-11-23,6,青龙岗,开福寺,22:52,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/kaifusi
+2026-11-23,6,青龙岗,朱岗,22:34,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhugang
+2026-11-23,6,青龙岗,松荫桥,22:47,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/songyinqiao
+2026-11-23,6,青龙岗,梦城,22:50,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/mengcheng
+2026-11-23,6,青龙岗,洪岗,22:46,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/honggang
+2026-11-23,6,青龙岗,科大先研院,23:00,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/keda-xianyanyuan
+2026-11-23,6,青龙岗,量子科学中心,23:03,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/liangzi-kexue-zhongxin
+2026-11-23,6,青龙岗,钢红,22:21,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/ganghong
+2026-11-23,6,青龙岗,陆军兵种大学,22:43,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/lujun-bingzhong-daxue
+2026-11-23,6,青龙岗,龙塘,22:15,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/longtang
+2026-11-23,6,龙塘,伏龙,23:05,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/fulong
+2026-11-23,6,龙塘,北雁湖,22:26,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/beiyanhu
+2026-11-23,6,龙塘,南七里,22:41,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/nanqili
+2026-11-23,6,龙塘,卫岗,22:46,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/weigang
+2026-11-23,6,龙塘,合肥七中,22:16,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-qizhong
+2026-11-23,6,龙塘,唐大楼,22:54,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/tangdalou
+2026-11-23,6,龙塘,大兴集,23:03,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/daxingji
+2026-11-23,6,龙塘,尧渡河路,22:52,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yaoduhe-lu
+2026-11-23,6,龙塘,市儿童医院,22:57,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shi-ertong-yiyuan
+2026-11-23,6,龙塘,市第三医院,22:43,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shi-di-3-yiyuan
+2026-11-23,6,龙塘,开福寺,22:30,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/kaifusi
+2026-11-23,6,龙塘,朱岗,22:48,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zhugang
+2026-11-23,6,龙塘,松荫桥,22:34,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/songyinqiao
+2026-11-23,6,龙塘,梦城,22:32,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/mengcheng
+2026-11-23,6,龙塘,洪岗,22:37,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/honggang
+2026-11-23,6,龙塘,科大先研院,22:22,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/keda-xianyanyuan
+2026-11-23,6,龙塘,量子科学中心,22:19,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/liangzi-kexue-zhongxin
+2026-11-23,6,龙塘,钢红,23:01,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/ganghong
+2026-11-23,6,龙塘,陆军兵种大学,22:39,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/lujun-bingzhong-daxue
+2026-11-23,6,龙塘,青龙岗,22:15,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/qinglonggang
+2026-11-23,7,省文化和非遗馆,一六八中学,22:27,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yiliuba-zhongxue
+2026-11-23,7,省文化和非遗馆,南艳湖北,22:25,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/nanyanhubei
+2026-11-23,7,省文化和非遗馆,南艳湖南,22:32,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/nanyanhu-nan
+2026-11-23,7,省文化和非遗馆,合肥大学,22:30,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-daxue
+2026-11-23,7,省文化和非遗馆,天都路,22:23,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/tiandu-lu
+2026-11-23,7,省文化和非遗馆,嵩山路,22:41,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/songshan-lu
+2026-11-23,7,省文化和非遗馆,徽园,22:19,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/huiyuan
+2026-11-23,7,省文化和非遗馆,明珠广场,22:21,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/mingzhu-guangchang
+2026-11-23,7,省文化和非遗馆,滨湖医院,22:37,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/binhu-yiyuan
+2026-11-23,7,省文化和非遗馆,紫庐,22:39,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zilu
+2026-11-23,7,省文化和非遗馆,繁华大道,22:17,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/fanhua-dadao
+2026-11-23,7,省文化和非遗馆,翡翠公园,22:15,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/feicui-gongyuan
+2026-11-23,7,省文化和非遗馆,要素大市场,22:35,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yaosu-dashichang
+2026-11-23,7,翡翠公园,一六八中学,22:31,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yiliuba-zhongxue
+2026-11-23,7,翡翠公园,南艳湖北,22:33,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/nanyanhubei
+2026-11-23,7,翡翠公园,南艳湖南,22:26,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/nanyanhu-nan
+2026-11-23,7,翡翠公园,合肥大学,22:28,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hefei-daxue
+2026-11-23,7,翡翠公园,天都路,22:35,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/tiandu-lu
+2026-11-23,7,翡翠公园,嵩山路,22:17,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/songshan-lu
+2026-11-23,7,翡翠公园,徽园,22:39,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/huiyuan
+2026-11-23,7,翡翠公园,明珠广场,22:37,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/mingzhu-guangchang
+2026-11-23,7,翡翠公园,滨湖医院,22:21,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/binhu-yiyuan
+2026-11-23,7,翡翠公园,省文化和非遗馆,22:15,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/sheng-wenhuahefeiyiguan
+2026-11-23,7,翡翠公园,紫庐,22:19,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/zilu
+2026-11-23,7,翡翠公园,繁华大道,22:41,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/fanhua-dadao
+2026-11-23,7,翡翠公园,要素大市场,22:23,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yaosu-dashichang
+2026-11-23,8,一里井,六中菱湖校区,22:26,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/liuzhong-linghu-xiaoqu
+2026-11-23,8,一里井,北城世纪城,22:10,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/beicheng-shijicheng
+2026-11-23,8,一里井,北城高铁站,22:00,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/beicheng-gaotiezhan-beicheng-high-speed-railway-station
+2026-11-23,8,一里井,双凤,22:19,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shuangfeng
+2026-11-23,8,一里井,双墩,22:06,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shuangdun
+2026-11-23,8,一里井,庐阳经开区,22:28,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/luyang-jingkaiqu
+2026-11-23,8,一里井,杏林,22:32,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xinglin
+2026-11-23,8,一里井,梅冲湖,22:13,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/meichonghu
+2026-11-23,8,一里井,省立医院北区,22:04,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shengli-yiyuan-beiqu
+2026-11-23,8,一里井,荷塘路,22:22,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hetang-lu
+2026-11-23,8,一里井,金梅路,22:16,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/jinmei-lu
+2026-11-23,8,北城高铁站,一里井,22:30,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/yilijing
+2026-11-23,8,北城高铁站,六中菱湖校区,22:39,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/liuzhong-linghu-xiaoqu
+2026-11-23,8,北城高铁站,北城世纪城,22:55,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/beicheng-shijicheng
+2026-11-23,8,北城高铁站,双凤,22:45,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shuangfeng
+2026-11-23,8,北城高铁站,双墩,22:58,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shuangdun
+2026-11-23,8,北城高铁站,庐阳经开区,22:36,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/luyang-jingkaiqu
+2026-11-23,8,北城高铁站,杏林,22:32,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/xinglin
+2026-11-23,8,北城高铁站,梅冲湖,22:52,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/meichonghu
+2026-11-23,8,北城高铁站,省立医院北区,23:01,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/shengli-yiyuan-beiqu
+2026-11-23,8,北城高铁站,荷塘路,22:42,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/hetang-lu
+2026-11-23,8,北城高铁站,金梅路,22:48,Weekdays,https://www.metroman.cn/en/cities/hefei/stations/jinmei-lu
+2026-11-23,S1,新桥2号航站楼,合肥西站,22:32,Everyday,https://www.metroman.cn/en/cities/hefei/stations/hefei-xizhan-hefeixi-railway-station
+2026-11-23,S1,新桥2号航站楼,大杨,22:39,Everyday,https://www.metroman.cn/en/cities/hefei/stations/dayang
+2026-11-23,S1,新桥2号航站楼,岗集,22:43,Everyday,https://www.metroman.cn/en/cities/hefei/stations/gangji
+2026-11-23,S1,新桥2号航站楼,庐州公园,22:35,Everyday,https://www.metroman.cn/en/cities/hefei/stations/luzhou-gongyuan
+2026-11-23,S1,新桥2号航站楼,未来大科学城,22:47,Everyday,https://www.metroman.cn/en/cities/hefei/stations/weilai-dakexuecheng
+2026-11-23,S1,新桥2号航站楼,未来湖,22:58,Everyday,https://www.metroman.cn/en/cities/hefei/stations/weilaihu
+2026-11-23,S1,新桥2号航站楼,省中医院西区,22:30,Everyday,https://www.metroman.cn/en/cities/hefei/stations/shengzhongyiyuan-xiqu
+2026-11-23,S1,新桥2号航站楼,迎宾大道,23:02,Everyday,https://www.metroman.cn/en/cities/hefei/stations/yingbin-dadao
+2026-11-23,S1,新桥2号航站楼,长兴湖,22:56,Everyday,https://www.metroman.cn/en/cities/hefei/stations/changxinghu
+2026-11-23,S1,省中医院西区,合肥西站,23:02,Everyday,https://www.metroman.cn/en/cities/hefei/stations/hefei-xizhan-hefeixi-railway-station
+2026-11-23,S1,省中医院西区,大杨,22:55,Everyday,https://www.metroman.cn/en/cities/hefei/stations/dayang
+2026-11-23,S1,省中医院西区,岗集,22:51,Everyday,https://www.metroman.cn/en/cities/hefei/stations/gangji
+2026-11-23,S1,省中医院西区,庐州公园,22:59,Everyday,https://www.metroman.cn/en/cities/hefei/stations/luzhou-gongyuan
+2026-11-23,S1,省中医院西区,新桥2号航站楼,22:30,Everyday,https://www.metroman.cn/en/cities/hefei/stations/xinqiao-2-hao-hangzhanlou-xinqiao-terminal-2
+2026-11-23,S1,省中医院西区,未来大科学城,22:47,Everyday,https://www.metroman.cn/en/cities/hefei/stations/weilai-dakexuecheng
+2026-11-23,S1,省中医院西区,未来湖,22:36,Everyday,https://www.metroman.cn/en/cities/hefei/stations/weilaihu
+2026-11-23,S1,省中医院西区,迎宾大道,22:32,Everyday,https://www.metroman.cn/en/cities/hefei/stations/yingbin-dadao
+2026-11-23,S1,省中医院西区,长兴湖,22:38,Everyday,https://www.metroman.cn/en/cities/hefei/stations/changxinghu
