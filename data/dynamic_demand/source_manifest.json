@@ -1,0 +1,21 @@
+{
+  "radius_m": 800,
+  "overlap": "nearest station only",
+  "coordinates": {
+    "url": "https://map.amap.com/service/subway?srhdata=3401_drw_hefei.json",
+    "sha256": "c93fab96594af43fc3ab4a12b03caff28b371dd5dce9ae6c698aacebc404c25b"
+  },
+  "history": {
+    "url": "https://luowenpeng.com/hf-metro-passenger-data.js",
+    "sha256": "2a1db4ad0c851f5bd1dcc6f53a5635eaa166b5bbbba94d8c2e471137d5476756"
+  },
+  "worldpop": {
+    "url": "https://data.worldpop.org/GIS/Population/Global_2015_2030/R2025A/2025/CHN/v1/100m/constrained/chn_pop_2025_CN_100m_R2025A_v1.tif",
+    "sha256": "99b2bcebaf173d0d9f9fc43b45a122e896bcd0ac2190d1882a1b6f2ab0941913"
+  },
+  "osm": {
+    "url": "https://download.openstreetmap.fr/extracts/asia/china/anhui-latest.osm.pbf",
+    "sha256": "b1aa75d56c4acad4541fc1d38d92f3b3afdacb0d1211109bfc7c5e377e74d82e",
+    "snapshot_utc": "2026-11-23T00:35:06Z"
+  }
+}

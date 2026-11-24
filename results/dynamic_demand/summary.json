@@ -1,0 +1,191 @@
+{
+  "forecast_date": "2026-11-25",
+  "last_observed_service_date": "2026-11-23",
+  "hours": [
+    "06:00",
+    "07:00",
+    "08:00",
+    "09:00",
+    "10:00",
+    "11:00",
+    "12:00",
+    "13:00",
+    "14:00",
+    "15:00",
+    "16:00",
+    "17:00",
+    "18:00",
+    "19:00",
+    "20:00",
+    "21:00",
+    "22:00",
+    "23:00"
+  ],
+  "physical_stations": 204,
+  "directed_running_edges": 432,
+  "ordered_od_per_hour": 41412,
+  "forecast_line_boardings": 2104140.392038794,
+  "estimated_unique_trips": 1146306.282939162,
+  "estimated_entries_to_boardings": 0.5447860262919318,
+  "year_2025_entries_to_boardings": 0.5954659785919292,
+  "forecast_training_pairs": [
+    [
+      "2026-09-07",
+      "2026-09-09"
+    ],
+    [
+      "2026-09-14",
+      "2026-09-16"
+    ],
+    [
+      "2026-10-12",
+      "2026-10-14"
+    ],
+    [
+      "2026-10-19",
+      "2026-10-21"
+    ],
+    [
+      "2026-10-26",
+      "2026-10-28"
+    ],
+    [
+      "2026-11-02",
+      "2026-11-04"
+    ]
+  ],
+  "holdout": {
+    "anchor": "2026-11-20",
+    "target": "2026-11-23",
+    "actual_boardings": 2084200.0,
+    "predicted_boardings": 2145920.9176478274,
+    "carry_boardings": 2502600.0,
+    "error_total_pct": 2.9613721162953373,
+    "carry_error_total_pct": 20.074848862873043,
+    "mae_pct_8_lines": 2.9805900353222086,
+    "training_pairs": [
+      [
+        "2026-09-04",
+        "2026-09-07"
+      ],
+      [
+        "2026-09-11",
+        "2026-09-14"
+      ],
+      [
+        "2026-09-18",
+        "2026-09-21"
+      ],
+      [
+        "2026-10-16",
+        "2026-10-19"
+      ],
+      [
+        "2026-10-23",
+        "2026-10-26"
+      ],
+      [
+        "2026-10-30",
+        "2026-11-02"
+      ]
+    ]
+  },
+  "criterion_weights": {
+    "degree": 0.15873835204027142,
+    "betweenness": 0.32605013769222946,
+    "closeness": 0.12139753564734737,
+    "ppi": 0.3938139746201517
+  },
+  "reference_holiday": [
+    {
+      "station": "合肥南站",
+      "holiday_entries": 65800,
+      "forecast_workday_entry_rank": 113
+    },
+    {
+      "station": "合肥火车站",
+      "holiday_entries": 39300,
+      "forecast_workday_entry_rank": 30
+    },
+    {
+      "station": "四牌楼",
+      "holiday_entries": 27900,
+      "forecast_workday_entry_rank": 4
+    },
+    {
+      "station": "大东门",
+      "holiday_entries": 25600,
+      "forecast_workday_entry_rank": 78
+    },
+    {
+      "station": "三里庵",
+      "holiday_entries": 25500,
+      "forecast_workday_entry_rank": 5
+    }
+  ],
+  "report_hours": {
+    "08:00": {
+      "top5": [
+        "合肥南站",
+        "西七里塘",
+        "洪岗",
+        "东七里",
+        "市第三医院"
+      ],
+      "strongest_edge": {
+        "edge_id": "E154",
+        "line": "2",
+        "from_id": "HF067",
+        "to_id": "HF062",
+        "from_station": "大东门",
+        "to_station": "四牌楼",
+        "minutes": 2,
+        "straight_km": 1.0709,
+        "estimated_load": 9407.649558889636
+      },
+      "trip_count": 134834.56705180524
+    },
+    "12:00": {
+      "top5": [
+        "合肥南站",
+        "西七里塘",
+        "洪岗",
+        "东七里",
+        "市第三医院"
+      ],
+      "strongest_edge": {
+        "edge_id": "E139",
+        "line": "2",
+        "from_id": "HF062",
+        "to_id": "HF007",
+        "from_station": "四牌楼",
+        "to_station": "三孝口",
+        "minutes": 2,
+        "straight_km": 1.3559,
+        "estimated_load": 3951.3891763476463
+      },
+      "trip_count": 62244.63648546736
+    },
+    "18:00": {
+      "top5": [
+        "合肥南站",
+        "西七里塘",
+        "洪岗",
+        "东七里",
+        "市第三医院"
+      ],
+      "strongest_edge": {
+        "edge_id": "E140",
+        "line": "2",
+        "from_id": "HF062",
+        "to_id": "HF067",
+        "from_station": "四牌楼",
+        "to_station": "大东门",
+        "minutes": 2,
+        "straight_km": 1.0709,
+        "estimated_load": 8598.197255619387
+      },
+      "trip_count": 124500.31036371886
+    }
+  }
+}

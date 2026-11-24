@@ -26,12 +26,16 @@ def clock_minutes(clock: str) -> int:
     return hour * 60 + minute
 
 
-def ride_minutes(row: dict) -> float:
+def directional_ride_minutes(row: dict) -> tuple[int, int]:
     ab = (clock_minutes(row["ab_time_at_b"]) - clock_minutes(row["ab_time_at_a"])) % 1440
     ba = (clock_minutes(row["ba_time_at_a"]) - clock_minutes(row["ba_time_at_b"])) % 1440
     if min(ab, ba) == 0 or not (row["source_ab"] and row["source_ba"]):
         raise ValueError(f"缺少有效的同车区间时刻或来源：{row}")
-    return (ab + ba) / 2
+    return ab, ba
+
+
+def ride_minutes(row: dict) -> float:
+    return sum(directional_ride_minutes(row)) / 2
 
 
 def build_weighted_network(path: Path = DATA_FILE) -> nx.Graph:
@@ -80,6 +84,18 @@ def build_weighted_network(path: Path = DATA_FILE) -> nx.Graph:
                        weight=minutes, transfer_status=row["transfer_status"])
     if not graph or not transfers or not nx.is_connected(graph):
         raise ValueError("基准线网不连通")
+    return graph
+
+
+def build_directed_network(path: Path = DATA_FILE) -> nx.DiGraph:
+    """保留站台状态，把运行边的双向均值换回各方向规划分钟。"""
+    graph = build_weighted_network(path).to_directed()
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            if row["edge_type"] == "running":
+                u = station_id(row["station_a"], row["line_a"])
+                v = station_id(row["station_b"], row["line_b"])
+                graph[u][v]["weight"], graph[v][u]["weight"] = directional_ride_minutes(row)
     return graph
 
 

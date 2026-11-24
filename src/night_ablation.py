@@ -222,6 +222,25 @@ def analyze(graph, trips, transfer_minutes=TRANSFER_MINUTES):
     return rows, ranking, curve
 
 
+def three_line_comparison(graph, trips, transfer_minutes=TRANSFER_MINUTES):
+    """2/3/6 号线分别加开，以及同时加开；按 OD 集合计算互补，不加总柱高。"""
+    stations, changes = network_stations(graph)
+    mask = ~np.eye(len(stations), dtype=bool)
+    base = latest_boarding(trips, stations, changes, transfer_minutes)[mask]
+    additions = {line: extra_trips(trips, line) for line in ("2", "3", "6")}
+    single = {line: latest_boarding(trips + extra, stations, changes, transfer_minutes)[mask]
+              for line, extra in additions.items()}
+    joint = latest_boarding(trips + sum(additions.values(), []), stations, changes, transfer_minutes)[mask]
+    union = np.maximum.reduce(list(single.values()))
+    if (union < base).any() or (joint < union).any():
+        raise ValueError("加开更多车不应缩短可达窗口")
+    for t in range(22 * 60, 24 * 60 + 1):
+        yield dict(time=clock(t), baseline=int((base >= t).sum()),
+                   **{f"plus_{line}": int((x >= t).sum()) for line, x in single.items()},
+                   union_of_singles=int((union >= t).sum()), plus_2_3_6=int((joint >= t).sum()),
+                   only_joint=int(((joint >= t) & (union < t)).sum()))
+
+
 def missed_last_connections(trips, before, after, station, changes, transfer_minutes):
     """核对原来能从这趟车换上的下游跨线末班（按目标线路方向），不是 OD 数。"""
     cutoffs = {}
@@ -340,6 +359,7 @@ def main():
     write_csv(args.output / "latest_boarding.csv", rows)
     write_csv(args.output / "line_gain.csv", ranking)
     write_csv(args.output / "reachability.csv", curve)
+    write_csv(args.output / "three_line_reachability.csv", three_line_comparison(graph, trips, args.transfer_minutes))
     write_csv(args.output / "west_station_hold.csv", west_station_comparison(graph, trips, args.transfer_minutes))
     plot(args.output, curve, ranking)
     print(f"{day}: {len(trips)} trips; top line: {ranking[0]['line']}; results: {args.output}")

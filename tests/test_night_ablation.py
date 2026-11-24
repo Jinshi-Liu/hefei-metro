@@ -86,6 +86,20 @@ class NightAblationTests(unittest.TestCase):
                 total = next(r["total_window_gain_od_min"] for r in ranking if r["line"] == line)
                 self.assertEqual(sum(row[key] - row["baseline"] for row in curve), total)
 
+    def test_three_line_combination(self):
+        graph = nx.read_graphml(night.GRAPH_FILE)
+        _, trips = night.load_timetable(graph)
+        saved = night.read_rows(night.OUTPUT / "three_line_reachability.csv")
+        actual = list(night.three_line_comparison(graph, trips))
+        self.assertEqual(saved, [{k: str(v) for k, v in r.items()} for r in actual])
+        for r in actual:
+            self.assertLessEqual(r["baseline"], min(r["plus_2"], r["plus_3"], r["plus_6"]))
+            self.assertLessEqual(max(r["plus_2"], r["plus_3"], r["plus_6"]), r["union_of_singles"])
+            self.assertEqual(r["plus_2_3_6"] - r["union_of_singles"], r["only_joint"])
+        row = next(r for r in actual if r["time"] == "22:30")
+        self.assertEqual(row["plus_2_3_6"] - row["baseline"], 4236)
+        self.assertEqual(row["only_joint"], 281)
+
     def test_west_hold_comparison(self):
         rows = {(int(r["west_s1_to_3_min"]), r["scenario"]): r
                 for r in night.read_rows(night.OUTPUT / "west_station_hold.csv")}

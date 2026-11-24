@@ -6,3 +6,6 @@ results/transfer_ablation/*.csv text eol=lf
 results/transfer_ablation/*.json text eol=lf
 data/night_*.csv text eol=lf
 results/night_ablation/*.csv text eol=lf
+
+# 保留 Beamer 校徽、图表和答辩 PDF 的原始字节。
+docs/ustcbeamer-2.2.2/**/*.pdf binary

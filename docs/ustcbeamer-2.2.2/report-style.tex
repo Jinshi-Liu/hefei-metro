@@ -1,0 +1,58 @@
+% !TeX root = main.tex
+% 继承 ustcbeamer 的科大蓝、校徽和 Beamer 字体机制；正文采用白底讲义式母版。
+\usepackage[bluetheme]{ustcbeamer}
+\usepackage{array,booktabs,tabularx}
+\usetikzlibrary{calc,arrows.meta}
+\IfFontExistsTF{Microsoft YaHei}{\setCJKsansfont{Microsoft YaHei}}{}
+\IfFontExistsTF{Arial}{\setsansfont{Arial}}{}
+\definecolor{navy}{HTML}{0C315B}
+\definecolor{ink}{HTML}{19334E}
+\definecolor{slate}{HTML}{52697D}
+\definecolor{hair}{HTML}{CBD7E2}
+\definecolor{teal}{HTML}{007D78}
+\definecolor{rust}{HTML}{AA462B}
+\definecolor{wash}{HTML}{EBF2F8}
+\definecolor{nightblue}{HTML}{072A52}
+\setbeamercolor{normal text}{fg=ink,bg=white}
+\setbeamercolor{frametitle}{fg=themecolor,bg=white}
+\setbeamercolor{insight}{fg=ink,bg=wash}
+\setbeamertemplate{navigation symbols}{}
+\setbeamersize{text margin left=.74cm,text margin right=.74cm}
+\setbeamertemplate{headline}{\hbox{\color{themecolor}\rule{\paperwidth}{1.35pt}}}
+\newcommand{\chaptermarkno}{00}
+\newcommand{\parttitle}[2]{\renewcommand{\chaptermarkno}{#1}\section{#2}}
+\newcommand{\reportSource}{}
+\newcommand{\source}[1]{\renewcommand{\reportSource}{#1}}
+\setbeamertemplate{frametitle}{%
+  \vskip.17cm
+  \hbox to \textwidth{%
+    \vbox{\hbox{\fontsize{7.3}{9}\selectfont\bfseries\color{teal}\chaptermarkno\hspace{.13cm}/\hspace{.13cm}\insertsectionhead}%
+          \vskip.06cm
+          \hbox{\fontsize{15.4}{18}\selectfont\bfseries\color{themecolor}\insertframetitle}}%
+    \hfil\raise.03cm\hbox{\includegraphics[width=.71cm]{figures/ustc_logo.pdf}}}%
+  \vskip.13cm{\color{hair}\hrule height .45pt}\vskip.04cm}
+\setbeamertemplate{footline}{%
+  \leavevmode\hbox{\hspace{.74cm}\begin{minipage}{14.52cm}
+  {\color{hair}\hrule height .4pt}\vspace{.075cm}
+  {\fontsize{6.1}{7.4}\selectfont\color{slate}中国科学技术大学\hfill
+    \reportSource\hfill\textbf{\insertframenumber}\,/\,\inserttotalframenumber\par}
+  \end{minipage}}\vskip.12cm}
+\setlength{\tabcolsep}{4pt}
+\renewcommand{\arraystretch}{1.25}
+\newcolumntype{Y}{>{\raggedright\arraybackslash}X}
+\newcommand{\key}[1]{\textcolor{themecolor}{\textbf{#1}}}
+\newcommand{\warm}[1]{\textcolor{rust}{\textbf{#1}}}
+\newcommand{\cool}[1]{\textcolor{teal}{\textbf{#1}}}
+\newcommand{\minor}[1]{\par\smallskip{\fontsize{8.1}{10.6}\selectfont\color{slate}#1\par}}
+\newcommand{\subhead}[1]{\par{\fontsize{11.2}{14}\selectfont\color{themecolor}\bfseries #1\par}\vspace{.10cm}}
+\newcommand{\tagline}[1]{{\fontsize{8.1}{10}\selectfont\bfseries\color{teal}#1\par}\vspace{.10cm}}
+\newcommand{\entry}[2]{\subhead{#1}#2\par}
+\newcommand{\gap}{\par\vspace{.29cm}}
+\newcommand{\insight}[2]{\par\vspace{.16cm}\begin{beamercolorbox}[wd=\linewidth,sep=.18cm]{insight}%
+  \small\key{#1}\hspace{.17cm}#2\end{beamercolorbox}}
+\newcommand{\bignum}[1]{{\fontsize{22}{25}\selectfont\bfseries\color{themecolor}#1\par}}
+\newcommand{\thd}[1]{\textcolor{navy}{\bfseries #1}}
+\newcommand{\refurl}[2]{\href{#1}{\textcolor{themecolor}{#2}}}
+\newcommand{\chart}[1]{\includegraphics[width=\linewidth]{figures/report/#1.pdf}}
+\setbeamertemplate{itemize items}{\small\color{teal}\textbullet}
+\hypersetup{unicode=true,colorlinks=true,urlcolor=themecolor,linkcolor=themecolor}
