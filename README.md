@@ -32,10 +32,19 @@ python -m src.visualize_weighted_network
 python -m src.transfer_ablation
 python -m src.night_ablation
 python -m src.dynamic_demand
+python -m src.demo --rank
 python -m unittest discover -s tests -v
 ```
 
 - [建网代码](src/build_network.py)只读一张边表，校验站序和权重，写出 `results/metro.graphml`。
+- [现场演示代码](src/demo.py)只读保存的图，按给定站名或站对即时重算，不写文件；用于汇报现场提问即答。
+
+```bash
+python -m src.demo --list                 # 20 座换乘站及线路
+python -m src.demo --rank                 # 单站消融排名，约 2 秒
+python -m src.demo --station 合肥西站      # 失联与绕行明细，含典型站对
+python -m src.demo --od 合肥火车站 科大先研院  # 一对站在 20 种关闭下各走多久
+```
 - [实验代码](src/transfer_ablation.py)读取保存的图，输出单站表、多站汇总表、参数与复核摘要、两张图。默认随机序列 100 条；试跑可用 `--repeats 5 --output /path/to/output`。若图中文字显示为方框，请安装适用的中文字体（如 Microsoft YaHei 或 Noto Sans CJK SC）。
 
 - [夜间实验代码](src/night_ablation.py)用[逐班逐站时刻](data/night_trips.csv)与[逐站末班校对表](data/night_last_departures.csv)计算最晚首程、逐线加班结果和[三线组合曲线](results/night_ablation/three_line_reachability.csv)。不使用客流。
