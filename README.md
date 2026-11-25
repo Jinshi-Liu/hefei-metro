@@ -7,6 +7,7 @@
 - [夜间换乘消融实验](docs/夜间换乘消融实验.md)：按班次逐步消融上车机会，比较逐线加开及 2、3、6 号线同时加开的可达性。
 - [分时客流与关键站预测](docs/分时客流与关键站预测.md)：用公开线路日报、站周边人口和设施估算全网有向 OD，比较 204 站的分时关键性。
 - [按出行时间布局的加权网络图](results/metro_weighted_layout.png) · [全线网示意图](results/metro_map.png) · [离线互动地图](results/metro_map.html)（下载后用浏览器打开）
+- [分时客流互动图](results/flow_map.html)：拖时间滑块看 18 个小时的进站、出站、换线与关键站前 10，区间按该方向负荷加粗；离线单文件，无外部依赖。
 - [分钟线网 GraphML](results/metro.graphml) · [原始边表](data/metro_edges.csv) · [静态结果](results/transfer_ablation/) · [夜间结果](results/night_ablation/)
 
 ## 线网与数据
@@ -32,6 +33,7 @@ python -m src.visualize_weighted_network
 python -m src.transfer_ablation
 python -m src.night_ablation
 python -m src.dynamic_demand
+python -m src.visualize_flow
 python -m src.demo --rank
 python -m unittest discover -s tests -v
 ```
@@ -49,5 +51,6 @@ python -m src.demo --od 合肥火车站 科大先研院  # 一对站在 20 种�
 
 - [夜间实验代码](src/night_ablation.py)用[逐班逐站时刻](data/night_trips.csv)与[逐站末班校对表](data/night_last_departures.csv)计算最晚首程、逐线加班结果和[三线组合曲线](results/night_ablation/three_line_reachability.csv)。不使用客流。
 - [客流实验代码](src/dynamic_demand.py)读取[客流日报](data/line_ridership.csv)和[地理及历史输入](data/dynamic_demand/)，输出[分时 OD、区间负荷和动态名次](results/dynamic_demand/)。分时数据是估算，并非刷卡记录。
+- [分时互动图](src/visualize_flow.py)只读上述结果与示意坐标，写一个可拖时间的离线 HTML；不重算模型。
 
 原 1–8 号线、等效站数的 B/C 代码和交付文件可在 Git `b0f0b0b` 查阅。[原研究计划书](docs/合肥轨道交通研究计划书.pdf)和[早期末班车预研摘录](docs/last-train/)仅供追溯。
